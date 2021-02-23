@@ -159,6 +159,16 @@ body {
     background-color: #fff
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-family: Montserrat, sans-serif;
+}
+
 .cookies {
     background-color: #362143;
     color: #fff;
@@ -189,7 +199,7 @@ header {
     align-items: center;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .navbar-logo {
@@ -230,4 +240,111 @@ header {
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link:active {
     border-bottom: 2px solid rgb(255, 4, 107);
+}
+
+.hero {
+    margin: 0;
+    padding-bottom: 20vh;
+    background: url("images/hero-background.jpg") top no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-top: 100px;
+    padding-bottom: 54.4px;
+}
+
+.row-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.full-width {
+    max-width: 100%;
+}
+
+.anim {
+    visibility: visible;
+    opacity: 1;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+    transition: opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.5s, transform 0.6s cubic-bezier(0.5, 0, 0, 1) 0.5s;
+}
+
+.hero .container .row-center .full-width .title-hero {
+    font-size: 5.5vw;
+    line-height: 120%;
+    font-weight: 900;
+    margin-bottom: 4vh;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: Montserrat, sans-serif;
+}
+
+.hero .container .row-center .full-width .title-hero span {
+    color: #ffe64d;
+}
+
+.hero .container .row-center .full-width .hero-btn {
+    display: inline-block;
+    margin-top: 1.5rem;
+    margin-left: .5rem !important;
+    margin-right: .5rem !important;
+    padding: 15px 25px;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    font-weight: 700;
+    background: #fff;
+    border: 2px solid #fff;
+    color: #d92950;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 15px;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
+}
+
+.hero .container .row-center .full-width .hero-btn:hover {
+    color: #fff;
+    background: transparent;
+}
+
+.hero .container .row-center .full-width .hero-paragraph {
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    max-width: 800px;
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1rem;
+}
+
+.hero .technologies-used {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+    padding: 0 100px;
+}
+
+.hero .tech-icon {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.icon {
+    color: #fff;
+    font-size: 3.125rem;
+    opacity: .5;
+}
+
+#services {
+    padding: 100px 30px;
+}
+
+.row {
+    display: flex;
 }
