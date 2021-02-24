@@ -207,6 +207,7 @@ header {
     margin: 0;
     padding-bottom: 20vh;
     background: url("images/hero-background.jpg") top no-repeat;
+    background-color: #d92950;
     background-size: cover;
     background-attachment: scroll;
     padding-top: 100px;
