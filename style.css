@@ -524,3 +524,142 @@ header {
     color: #d92950;
     background: transparent;
 }
+
+.projets-realises-row {
+    margin-top: 0;
+}
+
+.slider-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-basis: 0;
+    max-width: 100%;
+}
+
+.arrow-left,
+.arrow-right {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 30px;
+}
+
+.arrow-left::before {
+    content: "\2190";
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+}
+
+.arrow-right::before {
+    content: "\2192";
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+}
+
+.carousel-items {
+    display: flex;
+    align-items: center;
+    width: 1000px;
+    max-width: 1200px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    flex: 1 0 330px;
+    margin-left: 1rem;
+    scroll-snap-align: start;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #3d4852;
+    border-radius: 3px;
+}
+
+.carousel-card {
+    width: 330px;
+    height: 100%;
+    margin: 0 30px;
+}
+
+.carousel-card a img {
+    max-width: 100%;
+    height: 412px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.carousel-description {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.carousel-description .col {
+    max-width: 100%;
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+.carousel-info {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.carousel-info div p {
+    font-size: 11.2px;
+    text-align: left;
+}
+
+.carousel-info .badge {
+    background: #fff;
+    padding: 0;
+    height: 20px;
+    display: flex;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.carousel-info .countries {
+    color: #d92950;
+    max-width: 150px;
+    padding: 3px 10px 3px 17px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-size: 11.2px;
+    font-weight: 700;
+}
+
+.carousel-tech {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    font-family: Ubuntu Mono, monospace;
+    font-size: .7rem;
+    background: #ed0058;
+    padding: 5px;
+}
+
+.carousel-tech svg {
+    margin-left: 5px;
+    margin-right: 2px;
+}
