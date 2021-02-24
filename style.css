@@ -227,6 +227,7 @@ header {
 
 .navbar .nav-item .nav-link:hover,
 .navbar .nav-item .nav-link:active {
+    left: 0;
     border-bottom: 2px solid rgb(255, 4, 107);
 }
 
@@ -435,4 +436,21 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.gallery-cell {
+    margin-right: 10px;
+    width: 234px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    counter-increment: gallery-cell;
+}
+
+.gallery-cell img {
+    max-width: 100%;
+    max-height: 80px;
+    height: auto;
 }
