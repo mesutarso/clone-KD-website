@@ -198,11 +198,11 @@
     /* les différentes styles couleurs textes et background */
     
     .color-white {
-        color: #fff;
+        color: #fff !important;
     }
     
     .color-primary {
-        color: #d92950;
+        color: #d92950 !important;
     }
     
     .color-secondary {
@@ -219,15 +219,15 @@
     }
     
     .color-link:hover {
-        color: #ff046b;
+        color: #ff046b !important;
     }
     
     .bg-primary-color {
-        background-color: #d92950;
+        background-color: #d92950 !important;
     }
     
     .bg-red {
-        color: #ae3753;
+        color: #ae3753 !important;
     }
     
     .bg-white {
@@ -241,6 +241,11 @@
     
     .container {
         max-width: 1200px;
+    }
+    
+    .row {
+        display: flex;
+        flex-wrap: wrap;
     }
     
     .btn {
@@ -417,7 +422,8 @@
     }
     
     #services {
-        padding: 100px 30px;
+        padding-left: 30px;
+        padding-right: 30px;
     }
     
     .row {
@@ -501,7 +507,6 @@
     #projets-realises {
         background: #d92950;
         color: #fff;
-        padding: 100px 0;
     }
     
     .parteners-row,
@@ -562,7 +567,6 @@
     #projets,
     #services2 {
         background-color: #f1f0f3;
-        padding: 100px 0;
     }
     
     .projets-row {
@@ -799,7 +803,6 @@
     #expertise {
         color: #424345;
         background-color: #fff;
-        padding: 100px 0;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -935,7 +938,6 @@
     #proposition {
         background: #ae3753;
         color: #fff;
-        padding: 100px 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1104,7 +1106,6 @@
         align-items: center;
         background-color: #111;
         color: #fff;
-        padding: 100px 0;
     }
     
     .media-container {
@@ -1128,7 +1129,6 @@
         align-items: center;
         background-color: #fff;
         color: #424345;
-        padding: 100px 0;
     }
     
     .testmonies-row {
@@ -1172,7 +1172,6 @@
         background: #1d1b25;
         color: hsla(0, 0%, 100%, .87);
         margin-bottom: 0;
-        padding: 100px 0;
     }
     
     .contact-form-row {
@@ -1434,7 +1433,7 @@
     
     #emploi {
         background-color: #fff;
-        padding-top: 50px;
+        padding-bottom: 0px;
     }
     
     .emploi-titre .row {
@@ -1454,7 +1453,6 @@
     }
     
     #offres {
-        padding: 100px 0;
         background-color: #fff;
         display: flex;
         justify-content: center;
