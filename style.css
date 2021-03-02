@@ -135,7 +135,26 @@
     }
     
     a {
+        color: #ff5098;
         text-decoration: none;
+        background-color: transparent;
+    }
+    
+    a:hover {
+        color: #ff046b;
+    }
+    
+    a:not(.no-style):not(.button):not(.btn):after {
+        position: absolute;
+        bottom: 0;
+        content: "";
+        display: block;
+        background-color: #ff046b;
+        transition: width .3s;
+        width: .001%;
+        border-radius: 2px;
+        height: 2px;
+        left: 0;
     }
     
     body {
@@ -145,6 +164,21 @@
         color: rgba(24, 0, 39, .87);
         text-align: left;
         background-color: #fff
+    }
+    
+    section {
+        padding: 100px 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    header {
+        background: #d92950;
+        transition: all .5s ease;
+        position: fixed;
+        width: 100%;
+        z-index: 99999;
+        top: 0;
     }
     
     h1,
@@ -157,13 +191,74 @@
         font-family: Montserrat, sans-serif;
     }
     
-    header {
-        background: #d92950;
-        transition: all .5s ease;
-        position: fixed;
-        width: 100%;
-        z-index: 99999;
-        top: 0;
+    .center-text {
+        text-align: center;
+    }
+    /* les différentes classes */
+    /* les différentes styles couleurs textes et background */
+    
+    .color-white {
+        color: #fff;
+    }
+    
+    .color-primary {
+        color: #d92950;
+    }
+    
+    .color-secondary {
+        color: rgba(24, 0, 39, .87);
+        ;
+    }
+    
+    .color-tertiary {
+        color: #424345;
+    }
+    
+    .color-title-black {
+        color: #111;
+    }
+    
+    .color-link:hover {
+        color: #ff046b;
+    }
+    
+    .bg-primary-color {
+        background-color: #d92950;
+    }
+    
+    .bg-red {
+        color: #ae3753;
+    }
+    
+    .bg-white {
+        background-color: #fff;
+    }
+    
+    .bg-grey {
+        color: #f1f0f3;
+    }
+    /* les différentes styles de containers */
+    
+    .container {
+        max-width: 1200px;
+    }
+    
+    .btn {
+        display: inline-block;
+        margin-top: 1.5rem;
+        margin-left: .5rem !important;
+        margin-right: .5rem !important;
+        padding: 15px 25px;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+        border-radius: 15px;
+    }
+    
+    .btn:hover {
+        background: transparent;
     }
     
     .navbar {
@@ -220,7 +315,6 @@
         background: url("images/hero-background.jpg") top no-repeat;
         background-color: #d92950;
         background-size: cover;
-        padding-top: 100px;
     }
     
     .hero .container {
@@ -324,8 +418,6 @@
     
     #services {
         padding: 100px 30px;
-        display: flex;
-        justify-content: center;
     }
     
     .row {
