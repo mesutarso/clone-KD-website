@@ -457,13 +457,13 @@
         align-items: center;
         justify-content: center;
         outline: none;
-        scroll-snap-align: center;
-        /*animation: slide 5s ease-in-out 2s infinite;*/
+        scroll-snap-align: start;
+        animation: slide 10s ease-in-out 5s infinite;
         margin-left: 10px;
     }
     
     .gallery-cell img {
-        margin-left: 70px;
+        margin-left: 60px;
         cursor: pointer;
     }
     
@@ -814,6 +814,7 @@
         margin: 40px;
         background: #dfdee1;
         border-radius: 10px;
+        padding: 20px 40px;
     }
     
     .card-soft-skills {
@@ -982,7 +983,7 @@
     .service2-card {
         display: flex;
         border: none;
-        min-height: 300px;
+        min-height: 320px;
         padding: 20px;
         border-radius: 20px;
         margin-bottom: 1.5rem;
@@ -1046,7 +1047,7 @@
         flex: 0 0 100%;
         max-width: 100%;
         display: flex;
-        align-items: center;
+        align-items: start;
         justify-content: center;
     }
     
@@ -1160,11 +1161,18 @@
         border-radius: 0;
     }
     
+    input:focus,
+    select:focus,
+    textarea:focus {
+        border: none;
+    }
+    
     textarea {
         resize: none;
         height: 137px;
         width: 100%;
         overflow-y: scroll;
+        font-size: 1rem;
     }
     
     .type-demande {
@@ -1418,27 +1426,63 @@
     
     @keyframes slide {
         0% {
-            position: relative;
-            left: 0;
+            transform: translateX(0);
+        }
+        10% {
+            transform: translateX(-190px);
+        }
+        15% {
+            transform: translateX(-190px);
         }
         20% {
-            position: relative;
-            left: -20%;
+            transform: translateX(-190px);
+        }
+        25% {
+            transform: translateX(-190px);
+        }
+        30% {
+            transform: translateX(-380px);
+        }
+        35% {
+            transform: translateX(-380px);
         }
         40% {
-            position: relative;
-            left: -40%;
+            transform: translateX(-380px);
+        }
+        45% {
+            transform: translateX(-380px);
+        }
+        50% {
+            transform: translateX(-630px);
+        }
+        55% {
+            transform: translateX(-630px);
         }
         60% {
-            position: relative;
-            left: -60%;
+            transform: translateX(-630px);
+        }
+        65% {
+            transform: translateX(-630px);
+        }
+        70% {
+            transform: translateX(-880px);
+        }
+        75% {
+            transform: translateX(-880px);
         }
         80% {
-            position: relative;
-            left: -80%;
+            transform: translateX(-880px);
+        }
+        85% {
+            transform: translateX(-880px);
+        }
+        90% {
+            transform: translateX(-960px);
+        }
+        95% {
+            transform: translateX(-960px);
         }
         100% {
-            position: relative;
-            left: -100%;
+            transform: translateX(100%);
         }
     }
