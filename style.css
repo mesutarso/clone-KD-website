@@ -138,10 +138,33 @@ a {
     color: #ff5098;
     text-decoration: none;
     background-color: transparent;
+    position: relative;
 }
 
 a:hover {
     color: #ff046b;
+}
+
+.link a:after,
+.link::after,
+.active::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #FF046B;
+    visibility: hidden;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.link a:hover:after,
+.link li:hover>a:after,
+.link:hover:after,
+.link:hover>a:after {
+    visibility: visible;
+    width: 100%;
 }
 
 body {
@@ -366,20 +389,12 @@ p {
 }
 
 .menu .nav-item .nav-link {
-    transition: all 0.3s linear;
     font-size: 1rem;
     color: #fff;
     font-weight: 600;
     padding: 0;
     margin: 0 .5rem;
-    border-bottom: 2px solid transparent;
     border-radius: 2px;
-}
-
-.menu .nav-item .nav-link:hover,
-.menu .nav-item .nav-link:active {
-    left: 0;
-    border-bottom: 2px solid rgb(255, 4, 107);
 }
 
 #hero {
@@ -1215,12 +1230,10 @@ footer strong {
     color: #fff
 }
 
-footer a {
-    color: #d92950;
-}
-
 footer ul li a {
     font-size: 2rem;
+    color: #d92950;
+    position: relative;
 }
 
 .social-network {
