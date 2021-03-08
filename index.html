@@ -5,19 +5,20 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
     <title>Kinshasa Digital</title>
 </head>
 
 <body>
-    <header>
-        <nav class="navbar">
-            <a class="navbar-logo" href="#">
-                <img src="images/logo_white.png" class="white" alt="Logo de Kinshasa Digital" />
+    <header class="bg-primary-color">
+        <nav class="menu">
+            <a class="menu-logo" href="#">
+                <img src="images/logo_white.png" alt="Logo de Kinshasa Digital" />
             </a>
 
-            <div class="nav-menu-content">
-                <ul class="navbar-nav">
+            <div class="menu-content">
+                <ul class="flex">
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Accueil</a>
                     </li>
@@ -35,47 +36,86 @@
             </div>
         </nav>
     </header>
-    <div id="home">
-        <section class="hero">
+    <main id="home">
+        <section id="hero">
             <div class="container">
-                <div class="row-center">
-                    <div class="full-width">
-                        <h1 class="title-hero anim">
+                <div class="row center-items">
+                    <div class="hero-content center-text center-items">
+                        <h1 class="hero-title">
                             besoin de <br /> développeurs
                             <br />
                             <span> &lt; qualifiés ? &gt;</span>
                         </h1>
-                        <div class="anim">
-                            <a class="hero-btn" href="#">Planifier un appel </a>
-                            <a class="hero-btn" href="#">Demander un devis</a>
-                        </div>
-                        <p class="hero-paragraph anim">
-                            Des développeurs expérimentés prêt à rejoindre votre équipe en full remote et avec les compétences dont vous avez besoin.
-                        </p>
-                    </div>
-                </div>
-                <div class="technologies-used">
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="la:node" data-inline="false" class="icon"
-                            style="transform: rotate(360deg)">
+                        <div>
+                            <a class="hero-btn btn color-primary" href="#">Planifier un appel
+                </a>
+                            <a class="hero-btn btn color-primary" href="#">Demander un devis</a
+                >
+              </div>
+              <p class="hero-description">
+                Des développeurs expérimentés prêt à rejoindre votre équipe en
+                full remote et avec les compétences dont vous avez besoin.
+              </p>
+            </div>
+          </div>
+          <div class="hero-icon flex">
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                data-icon="la:node"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   d="M21.3 6a.3.3 0 0 0-.3.3v5.497l-1.246-.727a.499.499 0 0 0-.508 0l-2.994 1.746a.504.504 0 0 0-.252.436v3.496c0 .18.096.346.252.436l2.994 1.746a.499.499 0 0 0 .508 0l2.994-1.746a.504.504 0 0 0 .252-.436V7.23a.501.501 0 0 0-.248-.431l-1.303-.758A.295.295 0 0 0 21.301 6zm-9.8 5.002a.506.506 0 0 0-.254.068l-2.994 1.746a.504.504 0 0 0-.252.436v3.496c0 .18.096.346.252.436l2.994 1.746c.157.09.35.09.508 0l2.994-1.746a.504.504 0 0 0 .252-.436v-3.496a.502.502 0 0 0-.252-.436l-2.994-1.746a.506.506 0 0 0-.254-.068zm16 0a.499.499 0 0 0-.254.068l-2.994 1.746a.504.504 0 0 0-.252.436v3.496c0 .18.096.346.252.436l2.904 1.755a.498.498 0 0 0 .51.004l1.428-.83a.224.224 0 0 0 0-.386L26 15.904V14.11l1.5-.873l1.5.873v1.25c0 .167.14.193.234.137a544.12 544.12 0 0 1 1.518-.883a.5.5 0 0 0 .248-.431v-.93a.502.502 0 0 0-.252-.436l-2.994-1.746a.502.502 0 0 0-.254-.068zm-24 .002a.499.499 0 0 0-.254.068L.252 12.816a.507.507 0 0 0-.252.438v4.463c0 .218.236.353.424.244l1.328-.773A.501.501 0 0 0 2 16.756v-2.643l1.5-.875l1.5.875v2.643c0 .178.095.341.248.431l1.328.774A.282.282 0 0 0 7 17.717v-4.463a.507.507 0 0 0-.252-.438l-2.994-1.744a.499.499 0 0 0-.254-.068zm16 2.232l1.5.875v1.778l-1.5.875l-1.5-.875V14.11l1.5-.875zm8 .768l-.857.5v.998L27.5 16l.857-.498v-.998l-.857-.5zm-12.094 3.994a.605.605 0 0 0-.297.076L12.297 19.7a.586.586 0 0 0-.297.512v3.246c0 .209.117.406.297.512l.74.422c.355.175.486.175.647.175c.53 0 .832-.317.832-.877v-3.207a.082.082 0 0 0-.082-.084h-.356a.084.084 0 0 0-.084.084v3.207c0 .243-.257.493-.676.284l-.77-.444a.09.09 0 0 1-.042-.074V20.21c0-.029.014-.063.043-.078l2.812-1.621a.091.091 0 0 1 .088 0l2.815 1.62c.029.016.043.045.043.079v3.246a.093.093 0 0 1-.043.078l-2.815 1.627a.091.091 0 0 1-.088 0l-.718-.428c-.02-.01-.05-.015-.069-.005a1.684 1.684 0 0 1-.424.195c-.049.015-.115.045.026.123l.933.555a.642.642 0 0 0 .297.078a.545.545 0 0 0 .293-.082l2.813-1.627a.586.586 0 0 0 .297-.512v-3.246a.603.603 0 0 0-.297-.512l-2.813-1.625a.584.584 0 0 0-.293-.076zm4.387 1.498a.54.54 0 1 0 .002 1.08a.54.54 0 0 0-.002-1.08zm-.006.086c.254 0 .46.2.46.453a.467.467 0 0 1-.46.46a.456.456 0 0 1-.451-.46c0-.253.203-.453.451-.453zm-.197.147v.607h.115v-.242h.108c.044 0 .054.018.064.052c0 .005.018.163.023.192h.125a.715.715 0 0 1-.029-.162c-.014-.078-.018-.132-.101-.137c.044-.015.117-.038.117-.15c0-.161-.14-.16-.213-.16h-.21zm.115.097h.098c.03 0 .088 0 .088.082c0 .034-.015.09-.094.088h-.092v-.17zm-3.545.496c-.803 0-1.28.343-1.28.907c0 .618.478.783 1.247.86c.92.093.992.225.992.405c0 .316-.254.447-.848.447c-.745 0-.908-.184-.962-.554c-.005-.04-.04-.069-.084-.069h-.366a.082.082 0 0 0-.082.084c0 .472.258 1.037 1.489 1.037c.903 0 1.414-.35 1.414-.964c0-.608-.41-.77-1.276-.887c-.876-.117-.963-.176-.963-.381c0-.17.072-.393.72-.393c.578 0 .794.127.882.516c.01.04.037.063.076.063h.365c.024 0 .045-.01.059-.024c.015-.019.024-.038.02-.062c-.058-.672-.502-.985-1.403-.985z"
                   fill="currentColor"
                 ></path>
               </svg>
-                    </div>
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:react" data-inline="false" class="icon"
-                            style="transform: rotate(360deg)">
+            </div>
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                data-icon="cib:react"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   d="M16 13.146c-1.573 0-2.854 1.281-2.854 2.854s1.281 2.854 2.854 2.854c1.573 0 2.854-1.281 2.854-2.854S17.573 13.146 16 13.146zm-7.99 8.526l-.63-.156C2.692 20.328 0 18.318 0 15.995s2.693-4.333 7.38-5.521l.63-.156l.177.625a31.42 31.42 0 0 0 1.818 4.771l.135.281l-.135.286a31.047 31.047 0 0 0-1.818 4.771zm-.921-9.74c-3.563 1-5.75 2.536-5.75 4.063s2.188 3.057 5.75 4.063a33.28 33.28 0 0 1 1.578-4.063a32.958 32.958 0 0 1-1.578-4.063zm16.901 9.74l-.177-.625a31.163 31.163 0 0 0-1.818-4.766l-.135-.286l.135-.286a31.047 31.047 0 0 0 1.818-4.771l.177-.62l.63.156c4.688 1.188 7.38 3.198 7.38 5.521s-2.693 4.333-7.38 5.521zm-.657-5.677a32.524 32.524 0 0 1 1.578 4.063c3.568-1.005 5.75-2.536 5.75-4.063s-2.188-3.057-5.75-4.063a33.663 33.663 0 0 1-1.578 4.063zM7.078 11.927l-.177-.625C5.583 6.656 5.984 3.323 8 2.161c1.979-1.141 5.151.208 8.479 3.625l.453.464l-.453.464a31.458 31.458 0 0 0-3.229 3.958l-.182.255l-.313.026a31.612 31.612 0 0 0-5.047.813zm2.531-8.838c-.359 0-.677.073-.943.229c-1.323.766-1.557 3.422-.646 7.005a33.343 33.343 0 0 1 4.313-.672a32.828 32.828 0 0 1 2.734-3.391c-2.078-2.026-4.047-3.172-5.458-3.172zm12.787 27.145c-.005 0-.005 0 0 0c-1.901 0-4.344-1.427-6.875-4.031l-.453-.464l.453-.464a31.458 31.458 0 0 0 3.229-3.958l.177-.255l.313-.031a30.668 30.668 0 0 0 5.052-.813l.63-.156l.177.625c1.318 4.646.917 7.974-1.099 9.135a3.095 3.095 0 0 1-1.604.411zm-5.464-4.505c2.078 2.026 4.047 3.172 5.458 3.172h.005c.354 0 .672-.078.938-.229c1.323-.766 1.563-3.422.646-7.005a32.644 32.644 0 0 1-4.313.667a32.886 32.886 0 0 1-2.734 3.396zm7.99-13.802l-.63-.161a31.993 31.993 0 0 0-5.052-.813l-.313-.026l-.177-.255a31.458 31.458 0 0 0-3.229-3.958l-.453-.464l.453-.464c3.328-3.417 6.5-4.766 8.479-3.625c2.016 1.161 2.417 4.495 1.099 9.141zm-5.255-2.276a33.22 33.22 0 0 1 4.313.672c.917-3.583.677-6.24-.646-7.005c-1.318-.76-3.797.406-6.401 2.943a34.067 34.067 0 0 1 2.734 3.391zM9.609 30.234c-.563.01-1.12-.13-1.609-.411c-2.016-1.161-2.417-4.49-1.099-9.135l.177-.625l.63.156c1.542.391 3.24.661 5.047.813l.313.031l.177.255a31.458 31.458 0 0 0 3.229 3.958l.453.464l-.453.464c-2.526 2.604-4.969 4.031-6.865 4.031zm-1.588-8.567c-.917 3.583-.677 6.24.646 7.005c1.318.75 3.792-.406 6.401-2.943a32.886 32.886 0 0 1-2.734-3.396a32.517 32.517 0 0 1-4.313-.667zm7.979.838c-1.099 0-2.224-.047-3.354-.141l-.313-.026l-.182-.26a39.947 39.947 0 0 1-1.797-2.828a39.917 39.917 0 0 1-1.557-2.969l-.135-.286l.135-.286a40.498 40.498 0 0 1 3.354-5.797l.182-.26l.313-.026a39.962 39.962 0 0 1 6.708 0l.313.026l.182.26a40.077 40.077 0 0 1 3.354 5.797l.135.286l-.135.286a39.62 39.62 0 0 1-3.354 5.797l-.182.26l-.313.026a40.483 40.483 0 0 1-3.354.141zm-2.927-1.448c1.969.151 3.885.151 5.859 0a39.03 39.03 0 0 0 2.927-5.063a37.53 37.53 0 0 0-2.932-5.063a37.881 37.881 0 0 0-5.854 0a37.302 37.302 0 0 0-2.932 5.063a38.624 38.624 0 0 0 2.932 5.063z"
                   fill="currentColor"
                 ></path>
               </svg>
-                    </div>
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="bx:bxl-vuejs" data-inline="false" class="icon"
-                            style="transform: rotate(360deg)">
+            </div>
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+                data-icon="bx:bxl-vuejs"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   d="M12 12.765l5.592-9.437h-3.276L12 7.33v.002L9.688 3.328h-3.28z"
                   fill="currentColor"
@@ -85,995 +125,1061 @@
                   fill="currentColor"
                 ></path>
               </svg>
-                    </div>
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="la:laravel" data-inline="false" class="icon"
-                            style="transform: rotate(360deg)">
+            </div>
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                data-icon="la:laravel"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   d="M7.557 5.006c-.657.028-5.668.453-6.024.486c-.356.03-.748.194-.392 1.057S7.186 19.95 7.346 20.316c.159.364.572.96 1.537.72c.989-.245 4.42-1.162 6.295-1.665c.989 1.836 3.01 5.558 3.384 6.09c.497.714.844.592 1.608.353c.6-.187 9.356-3.407 9.75-3.57c.394-.168.636-.282.37-.69c-.198-.296-2.509-3.461-3.718-5.12c.83-.225 3.778-1.027 4.092-1.118c.37-.097.42-.277.219-.507c-.197-.23-2.943-3.744-3.426-4.338c-.483-.594-.723-.49-1.018-.448c-.3.043-3.772.642-4.175.71c-.403.071-.657.234-.409.59c.22.315 2.504 3.63 3.01 4.359l-9.08 2.222L8.561 5.561c-.286-.436-.348-.59-1.004-.555zm-.114.857c.17-.01.15.028.211.133c0 0 6.666 11.765 6.778 11.97c.122.207.053.27-.055.294c-.108.024-5.195 1.269-5.467 1.332c-.272.062-.272.033-.305-.063c-.033-.096-6.044-12.784-6.128-12.943c-.084-.158-.08-.283 0-.283s4.802-.43 4.966-.44zm19.328 4.983c.068.015.139.066.223.183c.17.235 2.466 3.211 2.555 3.326c.084.111-.067.179-.264.227c-.197.043-3.45.867-3.45.867l-2.657-3.728c-.075-.11-.136-.217.052-.24c.187-.025 3.206-.587 3.342-.616c.068-.017.132-.035.2-.02zm-1.244 5.771c.063.007.116.052.186.164c.137.231 2.926 4.1 3.006 4.23c.08.13.162.216-.096.307c-.253.096-8.609 2.977-8.768 3.05c-.164.071-.292.094-.498-.218c-.206-.312-2.923-5.119-2.923-5.119l8.847-2.353c.11-.036.184-.068.246-.06z"
                   fill="currentColor"
                 ></path>
               </svg>
-                    </div>
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="grommet-icons:mysql" data-inline="false"
-                            class="icon" style="transform: rotate(360deg)">
+            </div>
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 24 24"
+                data-icon="grommet-icons:mysql"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   fill="currentColor"
                   fill-rule="evenodd"
                   d="M5.462 4.04a2.65 2.65 0 0 0-.67.074v.038h.037c.13.267.36.44.521.67l.372.781l.038-.037c.23-.162.336-.422.335-.819c-.093-.097-.107-.219-.187-.335c-.106-.154-.312-.242-.446-.372zm18.017 19.097c.175.129.293.329.521.41v-.038c-.12-.152-.15-.362-.26-.521c-.161-.16-.324-.322-.484-.484c-.474-.628-1.074-1.18-1.713-1.638c-.508-.365-1.649-.859-1.861-1.451l-.038-.038c.361-.04.784-.171 1.117-.26c.56-.15 1.06-.112 1.638-.26c.261-.076.521-.15.782-.224v-.15c-.292-.3-.5-.696-.819-.967c-.834-.71-1.743-1.42-2.68-2.01c-.52-.329-1.162-.541-1.713-.82c-.185-.093-.51-.142-.632-.297c-.29-.37-.447-.837-.67-1.266c-.467-.9-.927-1.883-1.34-2.83c-.283-.645-.467-1.281-.82-1.86c-1.69-2.78-3.51-4.457-6.328-6.106c-.6-.35-1.322-.489-2.084-.67l-1.229-.074c-.25-.105-.51-.41-.744-.559C3.188.434.792-.849.102.838c-.437 1.065.652 2.104 1.042 2.643c.273.379.623.803.819 1.229c.128.28.15.56.26.856c.271.73.506 1.522.856 2.196c.178.341.373.7.596 1.005c.138.187.372.27.409.559c-.23.321-.242.82-.371 1.228c-.582 1.835-.363 4.115.484 5.473c.259.416.87 1.31 1.711.967c.736-.3.572-1.228.782-2.047c.047-.186.019-.323.112-.447v.037l.67 1.34c.496.799 1.376 1.634 2.122 2.197c.386.292.69.797 1.191.968v-.038h-.037c-.098-.15-.25-.213-.372-.335a8.554 8.554 0 0 1-.857-.968c-.678-.92-1.277-1.928-1.823-2.977c-.261-.502-.488-1.054-.708-1.564c-.085-.197-.084-.494-.26-.596c-.241.374-.596.676-.782 1.117c-.298.705-.337 1.565-.447 2.457c-.065.023-.036.007-.075.037c-.518-.125-.7-.659-.893-1.117c-.487-1.157-.578-3.022-.149-4.355c.111-.345.613-1.431.41-1.75c-.098-.318-.417-.501-.596-.744A5.83 5.83 0 0 1 3.6 7.166c-.398-.902-.585-1.916-1.005-2.829c-.2-.436-.54-.877-.819-1.265c-.308-.43-.654-.746-.893-1.266c-.085-.185-.201-.48-.075-.67c.04-.128.097-.182.224-.223c.216-.167.817.055 1.042.148c.597.248 1.095.484 1.6.82c.243.16.489.472.782.558h.335c.525.12 1.112.037 1.601.186c.865.263 1.64.672 2.345 1.117c2.146 1.355 3.9 3.283 5.1 5.584c.193.37.277.724.447 1.117c.343.792.775 1.607 1.116 2.382c.34.773.673 1.553 1.154 2.196c.253.338 1.231.52 1.676.708c.311.131.821.269 1.116.446c.564.34 1.11.745 1.638 1.117c.264.187 1.077.595 1.117.93c-1.31-.034-2.31.087-3.164.448c-.243.102-.63.105-.67.409c.133.14.154.35.26.521c.204.33.549.773.856 1.005c.337.254.683.525 1.043.745c.64.39 1.356.614 1.972 1.005c.365.231.726.521 1.08.782z"
                 ></path>
               </svg>
-                    </div>
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:mongodb" data-inline="false" class="icon"
-                            style="transform: rotate(360deg)">
+            </div>
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                data-icon="cib:mongodb"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   d="M22.906 12.693c-1.682-7.417-5.656-9.849-6.083-10.781c-.469-.661-.974-1.911-.974-1.911c-.005.026-.005.042-.01.068v.016c0 .021-.005.031-.005.052v.021h-.005v.067h-.005c0 .01 0 .026-.005.031v.031c0 .01 0 .021-.005.026v.026c0 .016 0 .031-.005.042v.005a.32.32 0 0 1-.01.068v.01c-.005.005-.005.01-.005.016v.021h-.005v.031h-.005v.021h-.01v.031h-.005V.61h-.005v.021h-.005v.021h-.005v.021h-.005v.021h-.005V.71h-.005v.021h-.005v.021h-.005c-.005 0-.005.005-.005.005v.01l-.005.01c0 .01-.005.021-.01.031c-.005.005-.005.005-.005.01v.01h-.005v.01h-.01v.026h-.01V.88h-.005v.005h-.005v.01h-.005v.016h-.005v.01h-.01v.016h-.005v.01h-.005v.01h-.005v.016h-.005v.01h-.005v.005h-.005v.01h-.01v.016h-.005v.005h-.005v.01h-.005v.016h-.005v.005h-.005v.01h-.005v.005h-.005v.016h-.01v.005h-.005v.01h-.005v.005h-.005v.01h-.005v.01c-.005 0-.005.005-.005.005v.005h-.005l-.016.026s-.01.01-.01.016c-.005 0-.005.005-.005.005v.005h-.005v.005h-.005v.01h-.01v.005h-.005v.005h-.005v.015h-.005v.005h-.005v.005h-.005v.01h-.005v-.01h-.01v.005h-.005v.01h-.005v.01h-.005v.005h-.005v.005h-.005v.005h-.005v.01h-.01v.005h-.005v.01h-.005v.005h-.005v.005h-.005v.016h-.005v.005h-.005v.005h-.005v.005h-.005v.005h-.01v.01h-.005v.005h-.005v.005h-.005v.01h-.005v.005h-.01v.005h-.005v.005h-.005v.01h-.005v.01h-.005v.005h-.005v.005h-.01v.005h-.005v.005h-.005v.01h-.005v.005h-.005v.01h-.005v.005h-.005v.005h-.005v.005h-.005v.005h-.01v.005c-.005 0-.005.005-.005.005l-.005.005l-.005.005v.01h-.005v.005h-.005v.005h-.005v.005h-.005l-.01.01v.005c-.01.005-.01.01-.021.021c0 0-.01.01-.016.01c-.016.01-.036.031-.052.047c-.01.005-.021.016-.031.021c-.021.021-.042.036-.063.052c-.031.031-.063.052-.099.083h-.005l-.245.214h-.005c-.224.198-.49.453-.792.755l-.026.026c-1.813 1.875-4.672 5.786-4.969 12.104c-.031.521-.026 1.031.005 1.526v.01c.146 2.49.927 4.615 1.906 6.344c.385.688.807 1.313 1.234 1.875c1.469 1.938 2.969 3.089 3.349 3.37c.589 1.359.536 3.703.536 3.703l.859.286s-.177-2.266.068-3.365c.078-.339.255-.63.464-.88c.146-.099.563-.401 1.063-.859c.026-.026.042-.047.063-.073c2.026-1.891 5.813-6.547 4.516-14.13z"
                   fill="currentColor"
                 ></path>
               </svg>
-                    </div>
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.9em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 459 512" data-icon="file-icons:neo4j" data-inline="false"
-                            class="icon" style="transform: rotate(360deg)">
+            </div>
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="0.9em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 459 512"
+                data-icon="file-icons:neo4j"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   d="M101.425 161.343c0-13.283-14.478-21.63-25.999-14.989c-11.52 6.642-11.52 23.336 0 29.977s26-1.705 26-14.988zm2.86 47.46c0-13.283-14.478-21.63-25.998-14.988c-11.52 6.641-11.52 23.335 0 29.977s25.998-1.706 25.998-14.989zM218.671 50.898c0-13.284-14.479-21.63-25.999-14.989s-11.52 23.336 0 29.977c11.52 6.642 25.999-1.705 25.999-14.988zm45.434 15.961c0-13.283-14.478-21.63-25.999-14.988c-11.52 6.641-11.52 23.335 0 29.977c11.52 6.641 25.999-1.706 25.999-14.989zM114.889 259.125c0-13.283-14.479-21.63-25.999-14.989c-11.52 6.642-11.52 23.336 0 29.977c11.52 6.642 25.999-1.705 25.999-14.988zm23.76 45.097c0-13.283-14.48-21.63-26-14.988c-11.52 6.641-11.52 23.335 0 29.977c11.52 6.641 26-1.706 26-14.989zm185.271 63.065c0-13.283-14.478-21.63-25.998-14.989c-11.52 6.642-11.52 23.336 0 29.977c11.52 6.642 25.998-1.705 25.998-14.988zm31.446-37.221c0-13.283-14.479-21.63-26-14.989c-11.52 6.642-11.52 23.336 0 29.977c11.521 6.642 26-1.705 26-14.988zm-81.46 117.567C365.8 424.86 440.932 344.33 443.61 238.158c37.696-66.565.79-153.05-74.43-171.264c-56.919-50.14-138.47-70.934-215.743-45.715C134.014.155 101.242-7.472 73.165 8.715C41.659 26.878 33.2 65.145 47.779 94.112c-74.91 93.983-61.728 238.441 39.497 314.685c-5.304 113.208 147.822 143.623 186.63 38.836zM161.169 31.426c65.17-19.82 133.152-5.388 184.654 32.183c-83.707-3.62-145.732 81.814-112.91 161.557c33.44 81.244 141.053 97.595 197.246 32.104c-10.273 88.305-74.376 154.9-152.671 176.929c18.441-124.053-155.66-161.81-188.189-39.158C-.394 322.885-11.926 192.185 54.703 104.967c53.49 62.542 145.784-4.581 106.465-73.541z"
                   fill="currentColor"
                 ></path>
               </svg>
-                    </div>
-                    <div class="tech-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:graphql" data-inline="false" class="icon"
-                            style="transform: rotate(360deg)">
+            </div>
+            <div class="hero-icon-item">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                aria-hidden="true"
+                focusable="false"
+                width="1em"
+                height="1em"
+                preserveAspectRatio="xMidYMid meet"
+                viewBox="0 0 32 32"
+                data-icon="cib:graphql"
+                data-inline="false"
+                class="icon"
+                style="transform: rotate(360deg)"
+              >
                 <path
                   d="M18.734 3.667l6.578 3.802A2.863 2.863 0 0 1 29.859 8a2.859 2.859 0 0 1-1.808 4.203v7.599A2.842 2.842 0 0 1 29.853 24a2.859 2.859 0 0 1-4.604.474l-6.542 3.776A2.854 2.854 0 0 1 15.998 32a2.85 2.85 0 0 1-2.734-3.662l-6.583-3.797a2.85 2.85 0 0 1-4.036.094a2.859 2.859 0 0 1 1.302-4.838v-7.599a2.852 2.852 0 1 1 2.094-5.24c.234.135.453.302.641.5l6.583-3.797A2.85 2.85 0 0 1 15.187.119a2.85 2.85 0 0 1 3.547 3.547zm-.687 1.172c-.026.026-.047.052-.078.078l8.615 14.917c.036-.01.078-.021.109-.031v-7.609a2.84 2.84 0 0 1-2.073-3.448c.005-.031.016-.068.021-.099zm-4.021.078l-.078-.078l-6.594 3.802a2.85 2.85 0 0 1-1.948 3.526l-.104.026v7.609l.115.031l8.615-14.917zm2.771.677a2.937 2.937 0 0 1-1.589 0L6.593 20.511c.391.375.667.859.802 1.391h17.214c.13-.531.406-1.016.802-1.396zm1.312 21.635l6.552-3.786c-.021-.063-.036-.125-.052-.188H7.39l-.031.109l6.589 3.802a2.84 2.84 0 0 1 2.052-.87c.839 0 1.589.359 2.109.932z"
                   fill="currentColor"
                 ></path>
               </svg>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div class="row">
+          <div class="col-40 flex">
+            <div class="services-images-content">
+              <div class="images1">
+                <img
+                  src="images/texaf_campus.jpg"
+                  alt="Texaf  Campus"
+                  class="img-services"
+                />
+              </div>
+
+              <div class="images2">
+                <img
+                  src="images/kda_cohorte_2020.jpg"
+                  alt="Illustration"
+                  class="img-services"
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="col-60">
+            <h1 class="section-header">
+              Des développeurs &lt;qualifiés&gt; et prêts à intégrer vos équipes
+              en remote !
+            </h1>
+
+            <div class="services-quality">
+              <div class="quality flex center-items">
+                <img
+                  class="illustration-images"
+                  src="images/illustrations/paper.svg"
+                  alt="Illustration Developpeur qualiié"
+                  width="50"
+                  height="90"
+                />
+
+                <h5>Des développeurs qualifiés</h5>
+              </div>
+
+              <div class="flex quality center-items">
+                <img
+                  class="illustration-images"
+                  src="images/illustrations/cup.svg"
+                  alt="Illustration Des prix compétitifs"
+                  width="50"
+                  height="90"
+                />
+                <h5>Des prix compétitifs</h5>
+              </div>
+
+              <div class="quality flex center-items">
+                <img
+                  class="illustration-images"
+                  src="images/illustrations/chat.svg"
+                  alt="Illustration du français comme langue maternelle"
+                  width="50"
+                  height="90"
+                />
+                <h5>Le français est la langue maternelle</h5>
+              </div>
+
+              <div class="quality flex center-items">
+                <img
+                  class="illustration-images"
+                  src="images/illustrations/earth.svg"
+                  alt="Illustration sur le même fuseau horaire"
+                  width="50"
+                  height="90"
+                />
+                <h5>Sur le même fuseau horaire</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="parteners" class="bg-primary-color color-white">
+        <div class="parteners-content container">
+          <div class="container">
+            <div class="row center-items center-text mt-50">
+              <h1 class="section-header">
+                Nous avons le plaisir de travailler avec
+              </h1>
+            </div>
+            <div class="row center-items center-text mt-50">
+              <div class="flex center-items parteners-slide">
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/banquemondiale.png"
+                    alt="Logo Banque Mondiale"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/deloitte-white.png"
+                    alt="Logo deloitte"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/digitalafr-w.png"
+                    alt="Logo Digital Africa"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/embassade-france-grey.png"
+                    alt="Logo Ambassade France"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img src="images/partenaires/ey-white-2.png" alt=" Logo EY" />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/facebook-white.png"
+                    alt="Logo Facebook"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/ministere_sante-grey.png"
+                    alt="Logo Ministère de la Santé"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/ministere_sante-grey.png"
+                    alt="Logo Ministère de la Santé"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/ministere_sante-grey.png"
+                    alt="Logo Ministère de la Santé"
+                  />
+                </div>
+                <div class="slide-items">
+                  <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
+                </div>
+                <div class="slide-items">
+                  <img
+                    src="images/partenaires/ministere_sante-grey.png"
+                    alt="Logo Ministère de la Santé"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projets">
+        <div class="container">
+          <div class="row center-items">
+            <div class="full-width">
+              <h1 class="section-header">Nous accompagnons vos projets</h1>
+            </div>
+          </div>
+
+          <div class="row justify-center-items center-text">
+            <div class="col-50 project-card-row mt-50">
+              <div class="project-card border-jaune">
+                <div class="card">
+                  <h3 class="titre">&gt; Réaliser votre projet</h3>
+                  <p class="description">
+                    Engagez une équipe de développeurs de Kinshasa Digital à un
+                    prix fixe pour livrer un produit final.
+                  </p>
+                  <a href="#" class="btn project-btn">DEMARRER MAINTENANT</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-50 project-card-row mt-50">
+                    <div class="project-card border-rouge">
+                        <div class="card">
+                            <h3 class="titre">&gt; Integrer votre équipe</h3>
+                            <p class="description">
+                                Engagez un ou plusieurs développeurs de Kinshasa Digital à des prix compétitifs pour rejoindre votre équipe à distance.
+                            </p>
+
+                            <a href="#" class="btn project-btn">ENGAGER UN DEVELOPPEUR</a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="services">
-            <div class="row">
-                <div class="services-row-1">
-                    <div class="row-images anim">
-                        <div class="images1">
-                            <img src="images/texaf_campus.jpg" alt="Texaf  Campus" class="img-services" />
-                        </div>
-
-                        <div class="images2">
-                            <img src="images/kda_cohorte_2020.jpg" alt="Illustration" class="img-services" />
-                        </div>
-                    </div>
-                </div>
-
-                <div class="service-row-2">
-                    <h1>
-                        Des développeurs &lt;qualifiés&gt; et prêts à intégrer vos équipes en remote !
-                    </h1>
-
-                    <div class="illustration-services">
-                        <div class="illustration">
-                            <img class="illustration-images" src="images/illustrations/paper.svg" alt="Illustration Developpeur qualiié" width="50" height="90" />
-
-                            <h5>Des développeurs qualifiés</h5>
-                        </div>
-
-                        <div class="illustration">
-                            <img class="illustration-images" src="images/illustrations/cup.svg" alt="Illustration Des prix compétitifs" width="50" height="90" />
-                            <h5>Des prix compétitifs</h5>
-                        </div>
-
-                        <div class="illustration">
-                            <img class="illustration-images" src="images/illustrations/chat.svg" alt="Illustration du français comme langue maternelle" width="50" height="90" />
-                            <h5>Le français est la langue maternelle</h5>
-                        </div>
-
-                        <div class="illustration">
-                            <img class="illustration-images" src="images/illustrations/earth.svg" alt="Illustration sur le même fuseau horaire" width="50" height="90" />
-                            <h5>Sur le même fuseau horaire</h5>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
-        <section id="parteners">
-            <div class="parteners-content">
+        <section id="works">
+            <div class="works-content">
                 <div class="container">
-                    <div class="parteners-row">
-                        <h1>Nous avons le plaisir de travailler avec</h1>
+                    <div class="row center-items mt-50">
+                        <h1 class="section-header center-text">
+                            Ce que nous avons développpé
+                        </h1>
                     </div>
-                    <div class="parteners-row">
-                        <div class="parteners-gallery">
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/banquemondiale.png" alt="Logo Banque Mondiale" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/deloitte-white.png" alt="Logo deloitte" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/digitalafr-w.png" alt="Logo Digital Africa" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/embassade-france-grey.png" alt="Logo Ambassade France" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/ey-white-2.png" alt=" Logo EY" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/facebook-white.png" alt="Logo Facebook" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/ministere_sante-grey.png" alt="Logo Ministère de la Santé" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/ministere_sante-grey.png" alt="Logo Ministère de la Santé" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/ministere_sante-grey.png" alt="Logo Ministère de la Santé" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/gsma-2.png" alt="Logo GSMA" />
-                            </div>
-                            <div class="gallery-cell">
-                                <img src="images/partenaires/ministere_sante-grey.png" alt="Logo Ministère de la Santé" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projets">
-            <div class="container">
-                <div class="projets-row">
-                    <div class="full-width">
-                        <h1>Nous accompagnons vos projets</h1>
-                    </div>
-                </div>
+                    <div class="row center-items mt-50">
+                        <div class="row">
+                            <button class="arrow-left"></button>
 
-                <div class="projets-row">
-                    <div class="project-card-row">
-                        <div class="project-card border-jaune anim">
-                            <div class="card">
-                                <h3 class="titre">&gt; Réaliser votre projet</h3>
-                                <p class="description">
-                                    Engagez une équipe de développeurs de Kinshasa Digital à un prix fixe pour livrer un produit final.
-                                </p>
-                                <a href="#" class="project-btn">DEMARRER MAINTENANT</a>
-                            </div>
-                        </div>
-                    </div>
+                            <div class="carousel-items">
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/jaunecongo.png" alt="siteweb jaune Congo" /></a>
 
-                    <div class="project-card-row">
-                        <div class="project-card border-rouge anim">
-                            <div class="card">
-                                <h3 class="titre">&gt; Integrer votre équipe</h3>
-                                <p class="description">
-                                    Engagez un ou plusieurs développeurs de Kinshasa Digital à des prix compétitifs pour rejoindre votre équipe à distance.
-                                </p>
-
-                                <a href="#" class="project-btn">ENGAGER UN DEVELOPPEUR</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section id="projets-realises">
-            <div class="projets-realises-content">
-                <div class="container">
-                    <div class="projets-realises-row">
-                        <h1>Ce que nous avons développpé</h1>
-                    </div>
-                    <div class="projets-realises-row">
-                        <div class="slider">
-                            <div class="slider-content">
-                                <button class="arrow-left"></button>
-                                <div class="carousel">
-                                    <ul class="carousel-items">
-                                        <li class="carousel-item">
-                                            <div class="carousel-card">
-                                                <a href="#"><img src="images/works/jaunecongo.png" alt="siteweb jaune Congo" /></a>
-
-                                                <div class="carousel-description">
-                                                    <div class="col">
-                                                        <div class="carousel-info">
-                                                            <div>
-                                                                <p>Client : Jaune Congo</p>
-                                                                <p>Site : https://jaunecongo.com/</p>
-                                                            </div>
-                                                            <div class="badge">
-                                                                <span class="flag" data-width="20" data-height="20">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <g fill="#42ade2">
-                                        <path
-                                          d="M10.8 10.8C2.1 19.5-.1 32.2 4.1 43L43 4.1c-10.8-4.2-23.5-2-32.2 6.7z"
-                                        />
-                                        <path
-                                          d="M53.2 53.2c8.7-8.7 10.9-21.4 6.7-32.2L21 59.9c10.8 4.2 23.5 2 32.2-6.7"
-                                        />
-                                      </g>
-                                      <path
-                                        d="M53.2 10.8c-2-2-4.1-3.6-6.4-4.9L5.9 46.8c1.3 2.3 2.9 4.5 4.9 6.4c2 2 4.1 3.6 6.4 4.9l40.9-40.9c-1.3-2.3-2.9-4.5-4.9-6.4"
-                                        fill="#c94747"
-                                      />
-                                      <g fill="#ffce31">
-                                        <path
-                                          d="M17.2 58.1c.6.3 1.2.7 1.9 1c.6.3 1.3.6 2 .9l38.8-39c-.3-.7-.5-1.3-.9-2c-.3-.6-.6-1.2-1-1.9l-40.8 41"
-                                        />
-                                        <path
-                                          d="M44.9 4.9c-.7-.3-1.3-.6-2-.9L4.1 43c.3.7.5 1.3.9 2c.3.6.6 1.2 1 1.9l40.8-41c-.6-.4-1.2-.7-1.9-1"
-                                        />
-                                        <path
-                                          d="M18 19.2l3.7 2.8l-1.4-4.6l3.7-2.9h-4.6L18 10l-1.4 4.5H12l3.7 2.9l-1.4 4.6z"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">RDC</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="carousel-tech">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Wordpress
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:php" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> PHP
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="typcn:html5" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> HTML5
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:javascript" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M0 0h32v32H0zm29.38 24.37c-.234-1.464-1.188-2.688-4.005-3.833c-.979-.458-2.073-.781-2.396-1.521c-.12-.438-.141-.677-.063-.938c.203-.865 1.219-1.12 2.021-.88c.521.161 1 .557 1.302 1.198c1.38-.901 1.38-.901 2.339-1.5c-.359-.557-.536-.802-.781-1.036c-.839-.943-1.958-1.422-3.776-1.38l-.943.12c-.901.219-1.76.698-2.281 1.339c-1.516 1.719-1.078 4.719.76 5.964c1.818 1.359 4.479 1.656 4.823 2.938c.318 1.563-1.161 2.063-2.625 1.88c-1.078-.24-1.677-.781-2.339-1.781l-2.438 1.401c.276.641.599.917 1.078 1.479c2.318 2.339 8.12 2.219 9.161-1.339c.036-.12.318-.943.099-2.198zm-11.979-9.662h-2.995c0 2.583-.016 5.151-.016 7.74c0 1.641.083 3.151-.182 3.615c-.443.917-1.573.802-2.089.641c-.526-.26-.797-.62-1.104-1.141c-.089-.141-.151-.26-.172-.26l-2.432 1.5c.406.839 1 1.563 1.766 2.021c1.141.682 2.672.901 4.276.542c1.042-.302 1.943-.922 2.411-1.88c.682-1.24.536-2.76.531-4.464c.016-2.74 0-5.479 0-8.24z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> javascript
-                                                        </div>
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Jaune Congo</p>
+                                                        <p>Site : https://jaunecongo.com/</p>
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="carousel-item">
-                                            <div class="carousel-card">
-                                                <a href="#"><img src="images/works/digitalafrica.png" alt="siteweb Digital Africa" /></a>
-
-                                                <div class="carousel-description">
-                                                    <div class="col">
-                                                        <div class="carousel-info">
-                                                            <div>
-                                                                <p>Client : Digital Africa</p>
-                                                                <p>Site : https://digital-Congo.co/</p>
-                                                            </div>
-                                                            <div class="badge">
-                                                                <span class="flag" data-width="20" data-height="20">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <path
-                                        d="M2 32c0 13.1 8.4 24.2 20 28.3V3.7C10.4 7.8 2 18.9 2 32z"
-                                        fill="#428bc1"
-                                      />
-                                      <path
-                                        d="M62 32c0-13.1-8.3-24.2-20-28.3v56.6C53.7 56.2 62 45.1 62 32"
-                                        fill="#ed4c5c"
-                                      />
-                                      <path
-                                        d="M22 60.3c3.1 1.1 6.5 1.7 10 1.7s6.9-.6 10-1.7V3.7C38.9 2.6 35.5 2 32 2s-6.9.6-10 1.7v56.6z"
-                                        fill="#f9f9f9"
-                                      />
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">France</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="carousel-tech">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" data-icon="fa-brands:elementor" data-inline="false"
-                                                                class="iconify" style="transform: rotate(360deg)">
-                                  <path
-                                    d="M425.6 32H22.4C10 32 0 42 0 54.4v403.2C0 470 10 480 22.4 480h403.2c12.4 0 22.4-10 22.4-22.4V54.4C448 42 438 32 425.6 32M164.3 355.5h-39.8v-199h39.8v199zm159.3 0H204.1v-39.8h119.5v39.8zm0-79.6H204.1v-39.8h119.5v39.8zm0-79.7H204.1v-39.8h119.5v39.8z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Elementor
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Wordpress
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="carousel-item">
-                                            <div class="carousel-card">
-                                                <a href="#"><img src="images/works/companyleagues.png" alt="siteweb jaune Congo" /></a>
-
-                                                <div class="carousel-description">
-                                                    <div class="col">
-                                                        <div class="carousel-info">
-                                                            <div>
-                                                                <p>Client : Company Leagues</p>
-                                                                <p>Site : https://companyleagues.be/</p>
-                                                            </div>
-                                                            <div class="badge">
-                                                                <span class="flag">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <path
-                                        d="M62 32c0-13.1-8.3-24.2-20-28.3v56.6C53.7 56.2 62 45.1 62 32"
-                                        fill="#ed4c5c"
-                                      />
-                                      <path
-                                        d="M2 32c0 13.1 8.4 24.2 20 28.3V3.7C10.4 7.8 2 18.9 2 32z"
-                                        fill="#3e4347"
-                                      />
-                                      <path
-                                        d="M42 3.7C38.9 2.6 35.5 2 32 2s-6.9.6-10 1.7v56.6c3.1 1.1 6.5 1.7 10 1.7s6.9-.6 10-1.7V3.7z"
-                                        fill="#ffe62e"
-                                      />
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">BELGIQUE</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="carousel-tech">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" data-icon="fa-brands:elementor" data-inline="false"
-                                                                class="iconify" style="transform: rotate(360deg)">
-                                  <path
-                                    d="M425.6 32H22.4C10 32 0 42 0 54.4v403.2C0 470 10 480 22.4 480h403.2c12.4 0 22.4-10 22.4-22.4V54.4C448 42 438 32 425.6 32M164.3 355.5h-39.8v-199h39.8v199zm159.3 0H204.1v-39.8h119.5v39.8zm0-79.6H204.1v-39.8h119.5v39.8zm0-79.7H204.1v-39.8h119.5v39.8z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Elementor
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Wordpress
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="carousel-item">
-                                            <div class="carousel-card">
-                                                <a href="#"><img src="images/works/elan.png" alt="siteweb Elan RDC" /></a>
-
-                                                <div class="carousel-description">
-                                                    <div class="col">
-                                                        <div class="carousel-info">
-                                                            <div>
-                                                                <p>Client : Elan RDC</p>
-                                                                <p>Site : https://elanrdc.com/</p>
-                                                            </div>
-                                                            <div class="badge">
-                                                                <span class="flag">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <g fill="#2a5f9e">
-                                        <path
-                                          d="M22 60.3V46.5l-10.3 7.6c2.9 2.7 6.4 4.8 10.3 6.2"
-                                        />
-                                        <path
-                                          d="M42 60.3c3.9-1.4 7.4-3.5 10.3-6.2L42 46.4v13.9"
-                                        />
-                                        <path
-                                          d="M3.7 42c.3 1 .7 1.9 1.2 2.9L8.8 42H3.7"
-                                        />
-                                        <path
-                                          d="M55.2 42l3.9 2.9c.4-.9.8-1.9 1.2-2.9h-5.1"
-                                        />
-                                      </g>
-                                      <g fill="#fff">
-                                        <path
-                                          d="M23.5 38H2.6c.3 1.4.7 2.7 1.1 4h5.1l-3.9 2.9c.8 1.7 1.7 3.2 2.8 4.7L18 42h4v2l-11.7 8.6l1.4 1.4L22 46.5v13.8c1.3.5 2.6.8 4 1.1V38h-2.5"
-                                        />
-                                        <path
-                                          d="M61.4 38H38v23.4c1.4-.3 2.7-.7 4-1.1V46.5L52.3 54c1.4-1.3 2.6-2.7 3.8-4.2L45.4 42h6.8l6.1 4.5c.3-.5.6-1.1.8-1.6L55.2 42h5.1c.4-1.3.8-2.6 1.1-4"
-                                        />
-                                      </g>
-                                      <g fill="#ed4c5c">
-                                        <path
-                                          d="M7.7 49.6c.8 1.1 1.6 2.1 2.5 3.1L22 44.1v-2h-4L7.7 49.6"
-                                        />
-                                        <path
-                                          d="M45.5 42l10.7 7.8c.4-.5.7-1 1.1-1.5c.1-.1.1-.2.2-.2c.3-.5.7-1.1 1-1.6L52.2 42h-6.7"
-                                        />
-                                      </g>
-                                      <g fill="#2a5f9e">
-                                        <path
-                                          d="M42 3.7v13.8l10.3-7.6C49.4 7.2 45.9 5.1 42 3.7"
-                                        />
-                                        <path
-                                          d="M22 3.7c-3.9 1.4-7.4 3.5-10.3 6.2L22 17.6V3.7"
-                                        />
-                                        <path
-                                          d="M60.3 22c-.3-1-.7-1.9-1.2-2.9L55.2 22h5.1"
-                                        />
-                                        <path
-                                          d="M8.8 22l-3.9-2.9c-.4 1-.8 1.9-1.2 2.9h5.1"
-                                        />
-                                      </g>
-                                      <g fill="#fff">
-                                        <path
-                                          d="M40.5 26h20.8c-.3-1.4-.7-2.7-1.1-4h-5.1l3.9-2.9c-.8-1.7-1.7-3.2-2.8-4.7L46 22h-4v-2l11.7-8.6l-1.4-1.4L42 17.5V3.7c-1.3-.5-2.6-.8-4-1.1V26h2.5"
-                                        />
-                                        <path
-                                          d="M2.6 26H26V2.6c-1.4.3-2.7.7-4 1.1v13.8L11.7 10c-1.4 1.3-2.6 2.7-3.8 4.2L18.6 22h-6.8l-6.1-4.5c-.3.5-.6 1.1-.8 1.6L8.8 22H3.7c-.4 1.3-.8 2.6-1.1 4"
-                                        />
-                                      </g>
-                                      <g fill="#ed4c5c">
-                                        <path
-                                          d="M56.3 14.4c-.8-1.1-1.6-2.1-2.5-3.1L42 19.9v2h4l10.3-7.5"
-                                        />
-                                        <path
-                                          d="M18.5 22L7.9 14.2c-.4.5-.7 1-1.1 1.5c-.1.1-.1.2-.2.2c-.3.5-.7 1.1-1 1.6l6.1 4.5h6.8"
-                                        />
-                                        <path
-                                          d="M61.4 26H38V2.6c-1.9-.4-3.9-.6-6-.6s-4.1.2-6 .6V26H2.6c-.4 1.9-.6 3.9-.6 6s.2 4.1.6 6H26v23.4c1.9.4 3.9.6 6 .6s4.1-.2 6-.6V38h23.4c.4-1.9.6-3.9.6-6s-.2-4.1-.6-6"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">UK</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="carousel-tech">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="bx:bxl-squarespace" data-inline="false"
-                                                                class="iconify" style="transform: rotate(360deg)">
-                                  <path
-                                    d="M20.886 9.264c-1.502-1.5-3.941-1.5-5.475 0l-6.13 6.131a.981.981 0 0 0 0 1.377a.982.982 0 0 0 1.376 0l6.13-6.131a1.925 1.925 0 0 1 2.722 2.723l-6.037 6.035c.751.75 1.971.75 2.723 0l4.66-4.66c1.531-1.534 1.531-3.973.031-5.475zm-2.064 2.033a.982.982 0 0 0-1.376 0l-6.134 6.162c-.751.75-1.97.75-2.72 0c-.376-.375-1.002-.375-1.377 0s-.375 1.002 0 1.375c1.502 1.502 3.942 1.502 5.475 0l6.131-6.129c.375-.406.375-1.033.001-1.408zm-2.035-6.129c-1.501-1.502-3.941-1.502-5.475 0l-6.131 6.129a.98.98 0 0 0 0 1.375a.98.98 0 0 0 1.377 0l6.168-6.129a1.934 1.934 0 0 1 2.727 0a.982.982 0 0 0 1.376 0c.352-.406.352-1-.024-1.375h-.018zm-2.063 2.031a.978.978 0 0 0-1.376 0l-6.131 6.164a1.933 1.933 0 0 1-2.723 0a1.927 1.927 0 0 1 0-2.723l6.037-6.039a1.928 1.928 0 0 0-2.722 0L3.118 9.264c-1.501 1.502-1.501 3.941 0 5.475c1.501 1.502 3.94 1.502 5.475 0l6.129-6.131c.377-.408.377-1.033 0-1.408h.002z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Squarespace
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="carousel-item">
-                                            <div class="carousel-card">
-                                                <a href="#"><img src="images/works/cofed.png" alt="siteweb jaune Congo" /></a>
-
-                                                <div class="carousel-description">
-                                                    <div class="col">
-                                                        <div class="carousel-info">
-                                                            <div>
-                                                                <p>Client : Cofed</p>
-                                                                <p>Site : https://cofed.cd</p>
-                                                            </div>
-                                                            <div class="badge">
-                                                                <span class="flag">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <circle
-                                        cx="32"
-                                        cy="32"
-                                        r="30"
-                                        fill="#2a5f9e"
-                                      />
-                                      <g fill="#ffce31">
-                                        <path
-                                          d="M32 11.8l.7 2.2H35l-1.8 1.4l.7 2.2l-1.9-1.4l-1.9 1.4l.7-2.2L29 14h2.3z"
-                                        />
-                                        <path
-                                          d="M32 45.8l.7 2.2H35l-1.8 1.3l.7 2.3l-1.9-1.4l-1.9 1.4l.7-2.3L29 48h2.3z"
-                                        />
-                                        <path
-                                          d="M40.4 43l.7 2.2h2.4l-1.9 1.4l.7 2.2l-1.9-1.4l-1.9 1.4l.8-2.2l-1.9-1.4h2.3z"
-                                        />
-                                        <path
-                                          d="M46.2 37.2l.7 2.2h2.4l-1.9 1.4l.7 2.2l-1.9-1.4l-1.9 1.4l.8-2.2l-1.9-1.4h2.3z"
-                                        />
-                                        <path
-                                          d="M49 28.8l.7 2.2H52l-1.9 1.4l.7 2.2l-1.8-1.4l-1.9 1.4l.7-2.2l-1.9-1.4h2.3z"
-                                        />
-                                        <path
-                                          d="M46.2 20.3l.7 2.3h2.4l-1.9 1.3l.7 2.2l-1.9-1.3l-1.9 1.3l.8-2.2l-1.9-1.3h2.3z"
-                                        />
-                                        <path
-                                          d="M40.4 14.5l.7 2.3h2.4l-1.9 1.3l.7 2.2l-1.9-1.3l-1.9 1.3l.8-2.2l-1.9-1.3h2.3z"
-                                        />
-                                        <path
-                                          d="M23.6 43l-.7 2.2h-2.4l1.9 1.4l-.7 2.2l1.9-1.4l1.9 1.4l-.8-2.2l1.9-1.4h-2.3z"
-                                        />
-                                        <path
-                                          d="M17.8 37.2l-.7 2.2h-2.4l1.9 1.4l-.7 2.2l1.9-1.4l1.9 1.4l-.8-2.2l1.9-1.4h-2.3z"
-                                        />
-                                        <path
-                                          d="M15 28.8l-.7 2.2H12l1.9 1.4l-.7 2.2l1.8-1.4l1.9 1.4l-.7-2.2l1.9-1.4h-2.3z"
-                                        />
-                                        <path
-                                          d="M17.8 20.3l-.7 2.3h-2.4l1.9 1.3l-.7 2.2l1.9-1.3l1.9 1.3l-.8-2.2l1.9-1.3h-2.3z"
-                                        />
-                                        <path
-                                          d="M23.6 14.5l-.7 2.3h-2.4l1.9 1.3l-.7 2.2l1.9-1.3l1.9 1.3l-.8-2.2l1.9-1.3h-2.3z"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">Union Européenne</span
+                                                    <div class="badge">
+                                                        <span class="flag" data-width="20" data-height="20">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
                                   >
+                                    <g fill="#42ade2">
+                                      <path
+                                        d="M10.8 10.8C2.1 19.5-.1 32.2 4.1 43L43 4.1c-10.8-4.2-23.5-2-32.2 6.7z"
+                                      />
+                                      <path
+                                        d="M53.2 53.2c8.7-8.7 10.9-21.4 6.7-32.2L21 59.9c10.8 4.2 23.5 2 32.2-6.7"
+                                      />
+                                    </g>
+                                    <path
+                                      d="M53.2 10.8c-2-2-4.1-3.6-6.4-4.9L5.9 46.8c1.3 2.3 2.9 4.5 4.9 6.4c2 2 4.1 3.6 6.4 4.9l40.9-40.9c-1.3-2.3-2.9-4.5-4.9-6.4"
+                                      fill="#c94747"
+                                    />
+                                    <g fill="#ffce31">
+                                      <path
+                                        d="M17.2 58.1c.6.3 1.2.7 1.9 1c.6.3 1.3.6 2 .9l38.8-39c-.3-.7-.5-1.3-.9-2c-.3-.6-.6-1.2-1-1.9l-40.8 41"
+                                      />
+                                      <path
+                                        d="M44.9 4.9c-.7-.3-1.3-.6-2-.9L4.1 43c.3.7.5 1.3.9 2c.3.6.6 1.2 1 1.9l40.8-41c-.6-.4-1.2-.7-1.9-1"
+                                      />
+                                      <path
+                                        d="M18 19.2l3.7 2.8l-1.4-4.6l3.7-2.9h-4.6L18 10l-1.4 4.5H12l3.7 2.9l-1.4 4.6z"
+                                      />
+                                    </g>
+                                  </svg>
+                                </span>
+                                                        <span class="countries">RDC</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Wordpress
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:php" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> PHP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="typcn:html5" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> HTML5
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:javascript" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M0 0h32v32H0zm29.38 24.37c-.234-1.464-1.188-2.688-4.005-3.833c-.979-.458-2.073-.781-2.396-1.521c-.12-.438-.141-.677-.063-.938c.203-.865 1.219-1.12 2.021-.88c.521.161 1 .557 1.302 1.198c1.38-.901 1.38-.901 2.339-1.5c-.359-.557-.536-.802-.781-1.036c-.839-.943-1.958-1.422-3.776-1.38l-.943.12c-.901.219-1.76.698-2.281 1.339c-1.516 1.719-1.078 4.719.76 5.964c1.818 1.359 4.479 1.656 4.823 2.938c.318 1.563-1.161 2.063-2.625 1.88c-1.078-.24-1.677-.781-2.339-1.781l-2.438 1.401c.276.641.599.917 1.078 1.479c2.318 2.339 8.12 2.219 9.161-1.339c.036-.12.318-.943.099-2.198zm-11.979-9.662h-2.995c0 2.583-.016 5.151-.016 7.74c0 1.641.083 3.151-.182 3.615c-.443.917-1.573.802-2.089.641c-.526-.26-.797-.62-1.104-1.141c-.089-.141-.151-.26-.172-.26l-2.432 1.5c.406.839 1 1.563 1.766 2.021c1.141.682 2.672.901 4.276.542c1.042-.302 1.943-.922 2.411-1.88c.682-1.24.536-2.76.531-4.464c.016-2.74 0-5.479 0-8.24z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> javascript
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                              </div>
-                              <div class="carousel-tech">
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                  width="1em"
-                                  height="1em"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 1200 1200"
-                                  data-icon="el:wordpress"
-                                  data-inline="false"
-                                  class="iconify"
-                                  style="transform: rotate(360deg)"
-                                >
-                                  <path
-                                    d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg>
-                                Wordpress
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                  width="1em"
-                                  height="1em"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 32 32"
-                                  data-icon="cib:php"
-                                  data-inline="false"
-                                  class="iconify"
-                                  style="transform: rotate(360deg)"
-                                >
-                                  <path
-                                    d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg>
-                                PHP
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                  width="1em"
-                                  height="1em"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 24 24"
-                                  data-icon="typcn:html5"
-                                  data-inline="false"
-                                  class="iconify"
-                                  style="transform: rotate(360deg)"
-                                >
-                                  <path
-                                    d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg>
-                                HTML5
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  xmlns:xlink="http://www.w3.org/1999/xlink"
-                                  aria-hidden="true"
-                                  focusable="false"
-                                  width="1em"
-                                  height="1em"
-                                  preserveAspectRatio="xMidYMid meet"
-                                  viewBox="0 0 32 32"
-                                  data-icon="cib:javascript"
-                                  data-inline="false"
-                                  class="iconify"
-                                  style="transform: rotate(360deg)"
-                                >
-                                  <path
-                                    d="M0 0h32v32H0zm29.38 24.37c-.234-1.464-1.188-2.688-4.005-3.833c-.979-.458-2.073-.781-2.396-1.521c-.12-.438-.141-.677-.063-.938c.203-.865 1.219-1.12 2.021-.88c.521.161 1 .557 1.302 1.198c1.38-.901 1.38-.901 2.339-1.5c-.359-.557-.536-.802-.781-1.036c-.839-.943-1.958-1.422-3.776-1.38l-.943.12c-.901.219-1.76.698-2.281 1.339c-1.516 1.719-1.078 4.719.76 5.964c1.818 1.359 4.479 1.656 4.823 2.938c.318 1.563-1.161 2.063-2.625 1.88c-1.078-.24-1.677-.781-2.339-1.781l-2.438 1.401c.276.641.599.917 1.078 1.479c2.318 2.339 8.12 2.219 9.161-1.339c.036-.12.318-.943.099-2.198zm-11.979-9.662h-2.995c0 2.583-.016 5.151-.016 7.74c0 1.641.083 3.151-.182 3.615c-.443.917-1.573.802-2.089.641c-.526-.26-.797-.62-1.104-1.141c-.089-.141-.151-.26-.172-.26l-2.432 1.5c.406.839 1 1.563 1.766 2.021c1.141.682 2.672.901 4.276.542c1.042-.302 1.943-.922 2.411-1.88c.682-1.24.536-2.76.531-4.464c.016-2.74 0-5.479 0-8.24z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg>
-                                javascript
-                              </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/digitalafrica.png" alt="siteweb Digital Africa" /></a>
+
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Digital Africa</p>
+                                                        <p>Site : https://digital-Congo.co/</p>
+                                                    </div>
+                                                    <div class="badge">
+                                                        <span class="flag" data-width="20" data-height="20">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
+                                  >
+                                    <path
+                                      d="M2 32c0 13.1 8.4 24.2 20 28.3V3.7C10.4 7.8 2 18.9 2 32z"
+                                      fill="#428bc1"
+                                    />
+                                    <path
+                                      d="M62 32c0-13.1-8.3-24.2-20-28.3v56.6C53.7 56.2 62 45.1 62 32"
+                                      fill="#ed4c5c"
+                                    />
+                                    <path
+                                      d="M22 60.3c3.1 1.1 6.5 1.7 10 1.7s6.9-.6 10-1.7V3.7C38.9 2.6 35.5 2 32 2s-6.9.6-10 1.7v56.6z"
+                                      fill="#f9f9f9"
+                                    />
+                                  </svg>
+                                </span>
+                                                        <span class="countries">France</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" data-icon="fa-brands:elementor" data-inline="false"
+                                                        class="iconify" style="transform: rotate(360deg)">
+                                <path
+                                  d="M425.6 32H22.4C10 32 0 42 0 54.4v403.2C0 470 10 480 22.4 480h403.2c12.4 0 22.4-10 22.4-22.4V54.4C448 42 438 32 425.6 32M164.3 355.5h-39.8v-199h39.8v199zm159.3 0H204.1v-39.8h119.5v39.8zm0-79.6H204.1v-39.8h119.5v39.8zm0-79.7H204.1v-39.8h119.5v39.8z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Elementor
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Wordpress
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/companyleagues.png" alt="siteweb jaune Congo" /></a>
+
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Company Leagues</p>
+                                                        <p>Site : https://companyleagues.be/</p>
+                                                    </div>
+                                                    <div class="badge">
+                                                        <span class="flag">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
+                                  >
+                                    <path
+                                      d="M62 32c0-13.1-8.3-24.2-20-28.3v56.6C53.7 56.2 62 45.1 62 32"
+                                      fill="#ed4c5c"
+                                    />
+                                    <path
+                                      d="M2 32c0 13.1 8.4 24.2 20 28.3V3.7C10.4 7.8 2 18.9 2 32z"
+                                      fill="#3e4347"
+                                    />
+                                    <path
+                                      d="M42 3.7C38.9 2.6 35.5 2 32 2s-6.9.6-10 1.7v56.6c3.1 1.1 6.5 1.7 10 1.7s6.9-.6 10-1.7V3.7z"
+                                      fill="#ffe62e"
+                                    />
+                                  </svg>
+                                </span>
+                                                        <span class="countries">BELGIQUE</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="0.88em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 448 512" data-icon="fa-brands:elementor" data-inline="false"
+                                                        class="iconify" style="transform: rotate(360deg)">
+                                <path
+                                  d="M425.6 32H22.4C10 32 0 42 0 54.4v403.2C0 470 10 480 22.4 480h403.2c12.4 0 22.4-10 22.4-22.4V54.4C448 42 438 32 425.6 32M164.3 355.5h-39.8v-199h39.8v199zm159.3 0H204.1v-39.8h119.5v39.8zm0-79.6H204.1v-39.8h119.5v39.8zm0-79.7H204.1v-39.8h119.5v39.8z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Elementor
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Wordpress
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/elan.png" alt="siteweb Elan RDC" /></a>
+
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Elan RDC</p>
+                                                        <p>Site : https://elanrdc.com/</p>
+                                                    </div>
+                                                    <div class="badge">
+                                                        <span class="flag">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
+                                  >
+                                    <g fill="#2a5f9e">
+                                      <path
+                                        d="M22 60.3V46.5l-10.3 7.6c2.9 2.7 6.4 4.8 10.3 6.2"
+                                      />
+                                      <path
+                                        d="M42 60.3c3.9-1.4 7.4-3.5 10.3-6.2L42 46.4v13.9"
+                                      />
+                                      <path
+                                        d="M3.7 42c.3 1 .7 1.9 1.2 2.9L8.8 42H3.7"
+                                      />
+                                      <path
+                                        d="M55.2 42l3.9 2.9c.4-.9.8-1.9 1.2-2.9h-5.1"
+                                      />
+                                    </g>
+                                    <g fill="#fff">
+                                      <path
+                                        d="M23.5 38H2.6c.3 1.4.7 2.7 1.1 4h5.1l-3.9 2.9c.8 1.7 1.7 3.2 2.8 4.7L18 42h4v2l-11.7 8.6l1.4 1.4L22 46.5v13.8c1.3.5 2.6.8 4 1.1V38h-2.5"
+                                      />
+                                      <path
+                                        d="M61.4 38H38v23.4c1.4-.3 2.7-.7 4-1.1V46.5L52.3 54c1.4-1.3 2.6-2.7 3.8-4.2L45.4 42h6.8l6.1 4.5c.3-.5.6-1.1.8-1.6L55.2 42h5.1c.4-1.3.8-2.6 1.1-4"
+                                      />
+                                    </g>
+                                    <g fill="#ed4c5c">
+                                      <path
+                                        d="M7.7 49.6c.8 1.1 1.6 2.1 2.5 3.1L22 44.1v-2h-4L7.7 49.6"
+                                      />
+                                      <path
+                                        d="M45.5 42l10.7 7.8c.4-.5.7-1 1.1-1.5c.1-.1.1-.2.2-.2c.3-.5.7-1.1 1-1.6L52.2 42h-6.7"
+                                      />
+                                    </g>
+                                    <g fill="#2a5f9e">
+                                      <path
+                                        d="M42 3.7v13.8l10.3-7.6C49.4 7.2 45.9 5.1 42 3.7"
+                                      />
+                                      <path
+                                        d="M22 3.7c-3.9 1.4-7.4 3.5-10.3 6.2L22 17.6V3.7"
+                                      />
+                                      <path
+                                        d="M60.3 22c-.3-1-.7-1.9-1.2-2.9L55.2 22h5.1"
+                                      />
+                                      <path
+                                        d="M8.8 22l-3.9-2.9c-.4 1-.8 1.9-1.2 2.9h5.1"
+                                      />
+                                    </g>
+                                    <g fill="#fff">
+                                      <path
+                                        d="M40.5 26h20.8c-.3-1.4-.7-2.7-1.1-4h-5.1l3.9-2.9c-.8-1.7-1.7-3.2-2.8-4.7L46 22h-4v-2l11.7-8.6l-1.4-1.4L42 17.5V3.7c-1.3-.5-2.6-.8-4-1.1V26h2.5"
+                                      />
+                                      <path
+                                        d="M2.6 26H26V2.6c-1.4.3-2.7.7-4 1.1v13.8L11.7 10c-1.4 1.3-2.6 2.7-3.8 4.2L18.6 22h-6.8l-6.1-4.5c-.3.5-.6 1.1-.8 1.6L8.8 22H3.7c-.4 1.3-.8 2.6-1.1 4"
+                                      />
+                                    </g>
+                                    <g fill="#ed4c5c">
+                                      <path
+                                        d="M56.3 14.4c-.8-1.1-1.6-2.1-2.5-3.1L42 19.9v2h4l10.3-7.5"
+                                      />
+                                      <path
+                                        d="M18.5 22L7.9 14.2c-.4.5-.7 1-1.1 1.5c-.1.1-.1.2-.2.2c-.3.5-.7 1.1-1 1.6l6.1 4.5h6.8"
+                                      />
+                                      <path
+                                        d="M61.4 26H38V2.6c-1.9-.4-3.9-.6-6-.6s-4.1.2-6 .6V26H2.6c-.4 1.9-.6 3.9-.6 6s.2 4.1.6 6H26v23.4c1.9.4 3.9.6 6 .6s4.1-.2 6-.6V38h23.4c.4-1.9.6-3.9.6-6s-.2-4.1-.6-6"
+                                      />
+                                    </g>
+                                  </svg>
+                                </span>
+                                                        <span class="countries">UK</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="bx:bxl-squarespace" data-inline="false"
+                                                        class="iconify" style="transform: rotate(360deg)">
+                                <path
+                                  d="M20.886 9.264c-1.502-1.5-3.941-1.5-5.475 0l-6.13 6.131a.981.981 0 0 0 0 1.377a.982.982 0 0 0 1.376 0l6.13-6.131a1.925 1.925 0 0 1 2.722 2.723l-6.037 6.035c.751.75 1.971.75 2.723 0l4.66-4.66c1.531-1.534 1.531-3.973.031-5.475zm-2.064 2.033a.982.982 0 0 0-1.376 0l-6.134 6.162c-.751.75-1.97.75-2.72 0c-.376-.375-1.002-.375-1.377 0s-.375 1.002 0 1.375c1.502 1.502 3.942 1.502 5.475 0l6.131-6.129c.375-.406.375-1.033.001-1.408zm-2.035-6.129c-1.501-1.502-3.941-1.502-5.475 0l-6.131 6.129a.98.98 0 0 0 0 1.375a.98.98 0 0 0 1.377 0l6.168-6.129a1.934 1.934 0 0 1 2.727 0a.982.982 0 0 0 1.376 0c.352-.406.352-1-.024-1.375h-.018zm-2.063 2.031a.978.978 0 0 0-1.376 0l-6.131 6.164a1.933 1.933 0 0 1-2.723 0a1.927 1.927 0 0 1 0-2.723l6.037-6.039a1.928 1.928 0 0 0-2.722 0L3.118 9.264c-1.501 1.502-1.501 3.941 0 5.475c1.501 1.502 3.94 1.502 5.475 0l6.129-6.131c.377-.408.377-1.033 0-1.408h.002z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Squarespace
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/cofed.png" alt="siteweb jaune Congo" /></a>
+
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Cofed</p>
+                                                        <p>Site : https://cofed.cd</p>
+                                                    </div>
+                                                    <div class="badge">
+                                                        <span class="flag">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
+                                  >
+                                    <circle
+                                      cx="32"
+                                      cy="32"
+                                      r="30"
+                                      fill="#2a5f9e"
+                                    />
+                                    <g fill="#ffce31">
+                                      <path
+                                        d="M32 11.8l.7 2.2H35l-1.8 1.4l.7 2.2l-1.9-1.4l-1.9 1.4l.7-2.2L29 14h2.3z"
+                                      />
+                                      <path
+                                        d="M32 45.8l.7 2.2H35l-1.8 1.3l.7 2.3l-1.9-1.4l-1.9 1.4l.7-2.3L29 48h2.3z"
+                                      />
+                                      <path
+                                        d="M40.4 43l.7 2.2h2.4l-1.9 1.4l.7 2.2l-1.9-1.4l-1.9 1.4l.8-2.2l-1.9-1.4h2.3z"
+                                      />
+                                      <path
+                                        d="M46.2 37.2l.7 2.2h2.4l-1.9 1.4l.7 2.2l-1.9-1.4l-1.9 1.4l.8-2.2l-1.9-1.4h2.3z"
+                                      />
+                                      <path
+                                        d="M49 28.8l.7 2.2H52l-1.9 1.4l.7 2.2l-1.8-1.4l-1.9 1.4l.7-2.2l-1.9-1.4h2.3z"
+                                      />
+                                      <path
+                                        d="M46.2 20.3l.7 2.3h2.4l-1.9 1.3l.7 2.2l-1.9-1.3l-1.9 1.3l.8-2.2l-1.9-1.3h2.3z"
+                                      />
+                                      <path
+                                        d="M40.4 14.5l.7 2.3h2.4l-1.9 1.3l.7 2.2l-1.9-1.3l-1.9 1.3l.8-2.2l-1.9-1.3h2.3z"
+                                      />
+                                      <path
+                                        d="M23.6 43l-.7 2.2h-2.4l1.9 1.4l-.7 2.2l1.9-1.4l1.9 1.4l-.8-2.2l1.9-1.4h-2.3z"
+                                      />
+                                      <path
+                                        d="M17.8 37.2l-.7 2.2h-2.4l1.9 1.4l-.7 2.2l1.9-1.4l1.9 1.4l-.8-2.2l1.9-1.4h-2.3z"
+                                      />
+                                      <path
+                                        d="M15 28.8l-.7 2.2H12l1.9 1.4l-.7 2.2l1.8-1.4l1.9 1.4l-.7-2.2l1.9-1.4h-2.3z"
+                                      />
+                                      <path
+                                        d="M17.8 20.3l-.7 2.3h-2.4l1.9 1.3l-.7 2.2l1.9-1.3l1.9 1.3l-.8-2.2l1.9-1.3h-2.3z"
+                                      />
+                                      <path
+                                        d="M23.6 14.5l-.7 2.3h-2.4l1.9 1.3l-.7 2.2l1.9-1.3l1.9 1.3l-.8-2.2l1.9-1.3h-2.3z"
+                                      />
+                                    </g>
+                                  </svg>
+                                </span>
+                                                        <span class="countries">Union Européenne</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Wordpress
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:php" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> PHP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="typcn:html5" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> HTML5
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:javascript" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M0 0h32v32H0zm29.38 24.37c-.234-1.464-1.188-2.688-4.005-3.833c-.979-.458-2.073-.781-2.396-1.521c-.12-.438-.141-.677-.063-.938c.203-.865 1.219-1.12 2.021-.88c.521.161 1 .557 1.302 1.198c1.38-.901 1.38-.901 2.339-1.5c-.359-.557-.536-.802-.781-1.036c-.839-.943-1.958-1.422-3.776-1.38l-.943.12c-.901.219-1.76.698-2.281 1.339c-1.516 1.719-1.078 4.719.76 5.964c1.818 1.359 4.479 1.656 4.823 2.938c.318 1.563-1.161 2.063-2.625 1.88c-1.078-.24-1.677-.781-2.339-1.781l-2.438 1.401c.276.641.599.917 1.078 1.479c2.318 2.339 8.12 2.219 9.161-1.339c.036-.12.318-.943.099-2.198zm-11.979-9.662h-2.995c0 2.583-.016 5.151-.016 7.74c0 1.641.083 3.151-.182 3.615c-.443.917-1.573.802-2.089.641c-.526-.26-.797-.62-1.104-1.141c-.089-.141-.151-.26-.172-.26l-2.432 1.5c.406.839 1 1.563 1.766 2.021c1.141.682 2.672.901 4.276.542c1.042-.302 1.943-.922 2.411-1.88c.682-1.24.536-2.76.531-4.464c.016-2.74 0-5.479 0-8.24z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> javascript
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/tandem.png" alt="siteweb Tandem Advertising" /></a>
+
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Tandem Advertising</p>
+                                                        <p>Site : https://tandemadvertising.com</p>
+                                                    </div>
+                                                    <div class="badge">
+                                                        <span class="flag">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
+                                  >
+                                    <circle
+                                      cx="32"
+                                      cy="32"
+                                      r="30"
+                                      fill="#ed4c5c"
+                                    />
+                                    <path
+                                      fill="#fff"
+                                      d="M47 27H37V17H27v10H17v10h10v10h10V37h10z"
+                                    />
+                                  </svg>
+                                </span>
+                                                        <span class="countries">suisse</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Wordpress - (custom theme)
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/resilientdigitalafrica.png" alt="siteweb Resilient Digital Africa" /></a>
+
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Resilient Digital Africa</p>
+                                                        <p>
+                                                            Site : https://resilient.digital-africa.co/
+                                                        </p>
+                                                    </div>
+                                                    <div class="badge">
+                                                        <span class="flag" data-width="20" data-height="20">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
+                                  >
+                                    <path
+                                      d="M2 32c0 13.1 8.4 24.2 20 28.3V3.7C10.4 7.8 2 18.9 2 32z"
+                                      fill="#428bc1"
+                                    />
+                                    <path
+                                      d="M62 32c0-13.1-8.3-24.2-20-28.3v56.6C53.7 56.2 62 45.1 62 32"
+                                      fill="#ed4c5c"
+                                    />
+                                    <path
+                                      d="M22 60.3c3.1 1.1 6.5 1.7 10 1.7s6.9-.6 10-1.7V3.7C38.9 2.6 35.5 2 32 2s-6.9.6-10 1.7v56.6z"
+                                      fill="#f9f9f9"
+                                    />
+                                  </svg>
+                                </span>
+                                                        <span class="countries">France</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Wordpress
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:php" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> PHP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="typcn:html5" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> HTML5
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:javascript" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M0 0h32v32H0zm29.38 24.37c-.234-1.464-1.188-2.688-4.005-3.833c-.979-.458-2.073-.781-2.396-1.521c-.12-.438-.141-.677-.063-.938c.203-.865 1.219-1.12 2.021-.88c.521.161 1 .557 1.302 1.198c1.38-.901 1.38-.901 2.339-1.5c-.359-.557-.536-.802-.781-1.036c-.839-.943-1.958-1.422-3.776-1.38l-.943.12c-.901.219-1.76.698-2.281 1.339c-1.516 1.719-1.078 4.719.76 5.964c1.818 1.359 4.479 1.656 4.823 2.938c.318 1.563-1.161 2.063-2.625 1.88c-1.078-.24-1.677-.781-2.339-1.781l-2.438 1.401c.276.641.599.917 1.078 1.479c2.318 2.339 8.12 2.219 9.161-1.339c.036-.12.318-.943.099-2.198zm-11.979-9.662h-2.995c0 2.583-.016 5.151-.016 7.74c0 1.641.083 3.151-.182 3.615c-.443.917-1.573.802-2.089.641c-.526-.26-.797-.62-1.104-1.141c-.089-.141-.151-.26-.172-.26l-2.432 1.5c.406.839 1 1.563 1.766 2.021c1.141.682 2.672.901 4.276.542c1.042-.302 1.943-.922 2.411-1.88c.682-1.24.536-2.76.531-4.464c.016-2.74 0-5.479 0-8.24z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> javascript
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="carousel-card">
+                                        <a href="#"><img src="images/works/jaunecongo.png" alt="siteweb jaune Congo" /></a>
+
+                                        <div class="carousel-description row">
+                                            <div class="col">
+                                                <div class="carousel-info">
+                                                    <div>
+                                                        <p>Client : Ministère de la Santé RDC</p>
+                                                        <p>Site : https://jaunecongo.com</p>
+                                                    </div>
+                                                    <div class="badge">
+                                                        <span class="flag" data-width="20" data-height="20">
+                                  <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="20px"
+                                    height="20px"
+                                    style="
+                                      -ms-transform: rotate(360deg);
+                                      -webkit-transform: rotate(360deg);
+                                      transform: rotate(360deg);
+                                    "
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 64 64"
+                                  >
+                                    <g fill="#42ade2">
+                                      <path
+                                        d="M10.8 10.8C2.1 19.5-.1 32.2 4.1 43L43 4.1c-10.8-4.2-23.5-2-32.2 6.7z"
+                                      />
+                                      <path
+                                        d="M53.2 53.2c8.7-8.7 10.9-21.4 6.7-32.2L21 59.9c10.8 4.2 23.5 2 32.2-6.7"
+                                      />
+                                    </g>
+                                    <path
+                                      d="M53.2 10.8c-2-2-4.1-3.6-6.4-4.9L5.9 46.8c1.3 2.3 2.9 4.5 4.9 6.4c2 2 4.1 3.6 6.4 4.9l40.9-40.9c-1.3-2.3-2.9-4.5-4.9-6.4"
+                                      fill="#c94747"
+                                    />
+                                    <g fill="#ffce31">
+                                      <path
+                                        d="M17.2 58.1c.6.3 1.2.7 1.9 1c.6.3 1.3.6 2 .9l38.8-39c-.3-.7-.5-1.3-.9-2c-.3-.6-.6-1.2-1-1.9l-40.8 41"
+                                      />
+                                      <path
+                                        d="M44.9 4.9c-.7-.3-1.3-.6-2-.9L4.1 43c.3.7.5 1.3.9 2c.3.6.6 1.2 1 1.9l40.8-41c-.6-.4-1.2-.7-1.9-1"
+                                      />
+                                      <path
+                                        d="M18 19.2l3.7 2.8l-1.4-4.6l3.7-2.9h-4.6L18 10l-1.4 4.5H12l3.7 2.9l-1.4 4.6z"
+                                      />
+                                    </g>
+                                  </svg>
+                                </span>
+                                                        <span class="countries">RDC</span>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-tech">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> Wordpress
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:php" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> PHP
+                                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="typcn:html5" data-inline="false" class="iconify"
+                                                        style="transform: rotate(360deg)">
+                                <path
+                                  d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
+                                  fill="currentColor"
+                                ></path>
+                              </svg> HTML5
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </li>
+                                </div>
                             </div>
-                          </div>
-                        </div>
-                      </li>
-                      <li class="carousel-item">
-                        <div class="carousel-card">
-                          <a href="#"
-                            ><img
-                              src="images/works/tandem.png"
-                              alt="siteweb Tandem Advertising"
-                          /></a>
+                            <button class="arrow-right"></button>
 
-                          <div class="carousel-description">
-                            <div class="col">
-                              <div class="carousel-info">
-                                <div>
-                                  <p>Client : Tandem Advertising</p>
-                                  <p>Site : https://tandemadvertising.com</p>
-                                </div>
-                                <div class="badge">
-                                  <span class="flag">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <circle
-                                        cx="32"
-                                        cy="32"
-                                        r="30"
-                                        fill="#ed4c5c"
-                                      />
-                                      <path
-                                        fill="#fff"
-                                        d="M47 27H37V17H27v10H17v10h10v10h10V37h10z"
-                                      />
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">suisse</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="carousel-tech">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Wordpress - (custom theme)
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="carousel-item">
-                                            <div class="carousel-card">
-                                                <a href="#"><img src="images/works/resilientdigitalafrica.png" alt="siteweb Resilient Digital Africa" /></a>
-
-                                                <div class="carousel-description">
-                                                    <div class="col">
-                                                        <div class="carousel-info">
-                                                            <div>
-                                                                <p>Client : Resilient Digital Africa</p>
-                                                                <p>
-                                                                    Site : https://resilient.digital-africa.co/
-                                                                </p>
-                                                            </div>
-                                                            <div class="badge">
-                                                                <span class="flag" data-width="20" data-height="20">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <path
-                                        d="M2 32c0 13.1 8.4 24.2 20 28.3V3.7C10.4 7.8 2 18.9 2 32z"
-                                        fill="#428bc1"
-                                      />
-                                      <path
-                                        d="M62 32c0-13.1-8.3-24.2-20-28.3v56.6C53.7 56.2 62 45.1 62 32"
-                                        fill="#ed4c5c"
-                                      />
-                                      <path
-                                        d="M22 60.3c3.1 1.1 6.5 1.7 10 1.7s6.9-.6 10-1.7V3.7C38.9 2.6 35.5 2 32 2s-6.9.6-10 1.7v56.6z"
-                                        fill="#f9f9f9"
-                                      />
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">France</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="carousel-tech">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Wordpress
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:php" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> PHP
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="typcn:html5" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> HTML5
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:javascript" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M0 0h32v32H0zm29.38 24.37c-.234-1.464-1.188-2.688-4.005-3.833c-.979-.458-2.073-.781-2.396-1.521c-.12-.438-.141-.677-.063-.938c.203-.865 1.219-1.12 2.021-.88c.521.161 1 .557 1.302 1.198c1.38-.901 1.38-.901 2.339-1.5c-.359-.557-.536-.802-.781-1.036c-.839-.943-1.958-1.422-3.776-1.38l-.943.12c-.901.219-1.76.698-2.281 1.339c-1.516 1.719-1.078 4.719.76 5.964c1.818 1.359 4.479 1.656 4.823 2.938c.318 1.563-1.161 2.063-2.625 1.88c-1.078-.24-1.677-.781-2.339-1.781l-2.438 1.401c.276.641.599.917 1.078 1.479c2.318 2.339 8.12 2.219 9.161-1.339c.036-.12.318-.943.099-2.198zm-11.979-9.662h-2.995c0 2.583-.016 5.151-.016 7.74c0 1.641.083 3.151-.182 3.615c-.443.917-1.573.802-2.089.641c-.526-.26-.797-.62-1.104-1.141c-.089-.141-.151-.26-.172-.26l-2.432 1.5c.406.839 1 1.563 1.766 2.021c1.141.682 2.672.901 4.276.542c1.042-.302 1.943-.922 2.411-1.88c.682-1.24.536-2.76.531-4.464c.016-2.74 0-5.479 0-8.24z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> javascript
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                        <li class="carousel-item">
-                                            <div class="carousel-card">
-                                                <a href="#"><img src="images/works/jaunecongo.png" alt="siteweb jaune Congo" /></a>
-
-                                                <div class="carousel-description">
-                                                    <div class="col">
-                                                        <div class="carousel-info">
-                                                            <div>
-                                                                <p>Client : Ministère de la Santé RDC</p>
-                                                                <p>Site : https://jaunecongo.com</p>
-                                                            </div>
-                                                            <div class="badge">
-                                                                <span class="flag" data-width="20" data-height="20">
-                                    <svg
-                                      xmlns="http://www.w3.org/2000/svg"
-                                      xmlns:xlink="http://www.w3.org/1999/xlink"
-                                      aria-hidden="true"
-                                      focusable="false"
-                                      width="20px"
-                                      height="20px"
-                                      style="
-                                        -ms-transform: rotate(360deg);
-                                        -webkit-transform: rotate(360deg);
-                                        transform: rotate(360deg);
-                                      "
-                                      preserveAspectRatio="xMidYMid meet"
-                                      viewBox="0 0 64 64"
-                                    >
-                                      <g fill="#42ade2">
-                                        <path
-                                          d="M10.8 10.8C2.1 19.5-.1 32.2 4.1 43L43 4.1c-10.8-4.2-23.5-2-32.2 6.7z"
-                                        />
-                                        <path
-                                          d="M53.2 53.2c8.7-8.7 10.9-21.4 6.7-32.2L21 59.9c10.8 4.2 23.5 2 32.2-6.7"
-                                        />
-                                      </g>
-                                      <path
-                                        d="M53.2 10.8c-2-2-4.1-3.6-6.4-4.9L5.9 46.8c1.3 2.3 2.9 4.5 4.9 6.4c2 2 4.1 3.6 6.4 4.9l40.9-40.9c-1.3-2.3-2.9-4.5-4.9-6.4"
-                                        fill="#c94747"
-                                      />
-                                      <g fill="#ffce31">
-                                        <path
-                                          d="M17.2 58.1c.6.3 1.2.7 1.9 1c.6.3 1.3.6 2 .9l38.8-39c-.3-.7-.5-1.3-.9-2c-.3-.6-.6-1.2-1-1.9l-40.8 41"
-                                        />
-                                        <path
-                                          d="M44.9 4.9c-.7-.3-1.3-.6-2-.9L4.1 43c.3.7.5 1.3.9 2c.3.6.6 1.2 1 1.9l40.8-41c-.6-.4-1.2-.7-1.9-1"
-                                        />
-                                        <path
-                                          d="M18 19.2l3.7 2.8l-1.4-4.6l3.7-2.9h-4.6L18 10l-1.4 4.5H12l3.7 2.9l-1.4 4.6z"
-                                        />
-                                      </g>
-                                    </svg>
-                                  </span>
-                                                                <span class="countries">RDC</span>
-                                                            </div>
-                                                        </div>
-                                                        <div class="carousel-tech">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1200 1200" data-icon="el:wordpress" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M599.314 1200C264.241 1193.561 2.343 918.889 0 599.314C6.515 264.491 279.729 2.343 599.314 0C934.157 6.694 1197.654 279.298 1200 599.314c-6.619 335.092-280.682 598.34-600.686 600.686zm0-1157.486C288.196 48.64 43.307 302.232 41.143 599.314c6.051 311.365 261.102 556.007 558.171 558.171c311.365-6.053 556.007-261.103 558.172-558.171c-5.873-311.347-261.532-554.638-558.172-556.8zm-144 1047.771l153.6-441.6l160.457 432c-108.102 36.189-210.303 38.382-314.057 9.6zM337.371 309.943c-56.23 7.644-110.916 10.369-164.571 8.229C274.677 172.521 437.796 90.579 599.314 89.143c132.109 2.5 255.27 52.438 345.6 134.4c-41.893-3.097-66.977 15.276-85.028 46.628c-26.234 80.939 29.201 140.853 60.344 201.601c29.443 55.505 27.108 118.618 10.971 172.8l-76.8 261.943l-185.143-549.944c19.291-1.795 38.708-2.373 56.229-5.486c20.736-4.617 25.286-23.914 10.971-35.657c-4.57-3.656-9.6-5.484-15.086-5.484l-111.085 8.229h-84.343c-23.813 1.406-91.053-21.597-96.688 9.601c-2.911 12.017 6.06 21.436 16.457 23.313c18.346 2.377 39.365 5.076 56.229 6.857l80.914 216.686L470.4 906.515L283.886 356.571c19.736-1.714 39.733-2.312 57.6-5.486c14.63-1.833 21.028-9.146 19.2-21.943c-2.593-11.377-12.734-19.064-23.315-19.199zm-205.714 85.029l245.486 663.771c-88.577-43.659-158.606-107.864-208.458-184.458C77.49 728.754 67.897 544.121 131.657 394.972zm959.315 340.799c-40.303 131.608-122.616 240.613-236.57 306.515c5.484-14.629 14.171-39.314 26.057-74.058l142.629-414.172c13.714-40.229 23.314-85.028 28.8-134.399c1.853-20.199 1.914-40.564-1.371-58.972c58.437 126.043 75.015 250.892 40.455 375.086z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> Wordpress
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 32 32" data-icon="cib:php" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M9.349 13.609H8.088l-.687 3.531h1.12c.739 0 1.291-.14 1.656-.421c.359-.276.604-.745.729-1.396c.124-.625.067-1.068-.161-1.328c-.235-.255-.699-.385-1.396-.385zM16 7.584C7.161 7.584 0 11.355 0 16s7.161 8.416 16 8.416S32 20.645 32 16s-7.161-8.416-16-8.416zm-4.349 9.937a3.199 3.199 0 0 1-1.219.733c-.448.141-1.02.219-1.713.219H7.14l-.432 2.24H4.869l1.641-8.432h3.531c1.063 0 1.839.276 2.328.833c.485.557.636 1.339.437 2.339a3.818 3.818 0 0 1-.405 1.131a3.827 3.827 0 0 1-.751.937zm5.37.952l.724-3.733c.083-.423.052-.713-.095-.871c-.14-.151-.448-.229-.916-.229h-1.453l-.937 4.833h-1.828l1.64-8.437h1.823l-.437 2.245h1.625c1.027 0 1.729.177 2.115.531c.391.36.505.937.355 1.735l-.767 3.927zm10.124-3.02a3.683 3.683 0 0 1-.405 1.131a3.823 3.823 0 0 1-.745.937a3.282 3.282 0 0 1-1.224.733c-.448.141-1.021.219-1.713.219h-1.573l-.437 2.24h-1.839l1.641-8.432h3.531c1.063 0 1.839.276 2.328.839c.485.552.636 1.333.437 2.333zm-3.457-1.844h-1.256l-.687 3.531h1.115c.744 0 1.296-.14 1.656-.421c.364-.276.609-.745.735-1.396c.124-.625.067-1.068-.168-1.328c-.228-.255-.697-.385-1.395-.385z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> PHP
-                                                            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="1em" height="1em" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" data-icon="typcn:html5" data-inline="false" class="iconify"
-                                                                style="transform: rotate(360deg)">
-                                  <path
-                                    d="M13.1 3.5l.7 1.1l.7-1.1V5h1V2h-1l-.7 1.1l-.6-1.1h-1.1v3h1zM18.4 5V4H17V2h-1v3zM9.8 5h1V3h.9V2H8.9v1h.9zM6.6 4h.9v1h1V2h-1v1h-.9V2h-1v3h1zM5 6l1.2 14.4L12 22l5.8-1.6L19 6H5zm11.3 4.6H9.5l.2 1.8h6.4l-.5 5.5l-3.6 1l-3.6-1l-.3-2.9h1.8l.1 1.5l2 .5l2-.5l.2-2.3H8l-.5-5.3h9l-.2 1.7z"
-                                    fill="currentColor"
-                                  ></path>
-                                </svg> HTML5
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                                <button class="arrow-right"></button>
-                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
         </section>
-        <section id="expertise">
+        <section id="skills">
             <div class="container">
-                <div class="expertise-row">
+                <div class=" row align-center-items justify-around-items">
                     <div class="full-width">
-                        <h1 class="">Notre expertise</h1>
+                        <h1 class="section-header">Notre expertise</h1>
                     </div>
                 </div>
 
-                <div class="expertise-row">
-                    <div class="expertise-card-row anim">
-                        <div class="expertise-card">
-                            <div class="expertise-titre">
+                <div class=" row align-center-items justify-around-items">
+                    <div class="hard-skills-content ">
+                        <div class="hard-skills-card">
+                            <div class="hard-skills-titre">
                                 <h3>Hardskills</h3>
                             </div>
-                            <div class="expertise-body">
-                                <div class="expertise-tech">
-                                    <div class="expertise-tech-content">
+                            <div class="hard-skills-body">
+                                <div class="row">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/html5.svg" alt="Logo html5" /></span>
                                         <p>HTML</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/css.svg" alt="Logo css3" /></span>
                                         <p>CSS</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/php.svg" alt="Logo Php" /></span>
                                         <p>PHP</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/laravel.svg" alt="Logo Laravel"
                       /></span>
                                         <p>Laravel</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/nodejs.svg" alt="Logo NodeJS"
                       /></span>
                                         <p>Node.Js</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/javascript.svg" alt="Logo Javascript"
                       /></span>
                                         <p>JavaScript</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/vuejs.svg" alt="Logo Vue JS" /></span>
                                         <p>Vue.Js</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/reactjs.svg" alt="Logo React Js"
                       /></span>
                                         <p>React</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/mysql.svg" alt="Logo MySql" /></span>
                                         <p>MySQL</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/mongodb.svg" alt="Logo MongoDB"
                       /></span>
                                         <p>MongoDB</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/neo4j.svg" alt="logo Neo4j" /></span>
                                         <p>neo4j</p>
                                     </div>
-                                    <div class="expertise-tech-content">
+                                    <div class="hard-skills-item">
                                         <span><img src="svg/graphql.svg" alt="logo GraphQL"
                       /></span>
                                         <p>GraphQL</p>
@@ -1083,17 +1189,17 @@
                         </div>
                     </div>
 
-                    <div class="expertise-card-skill">
-                        <div class="card-soft-skills anim">
+                    <div class="soft-skills-content">
+                        <div class="soft-skills-card ">
                             <div class="skills-title">
                                 <h3>Soft Skills</h3>
                             </div>
 
                             <div class="soft-skills-body">
-                                <div class="list-container">
+                                <div class="soft-skills-list">
                                     <ol>
                                         <li>Méthodologie agile (SCRUM)</li>
-                                        <li>Travail en 2quipe</li>
+                                        <li>Travail en Equipe</li>
                                         <li>Habitude du télé-travail</li>
                                         <li>Gestion du temps</li>
                                         <li>Pair Programming</li>
@@ -1105,92 +1211,98 @@
                 </div>
             </div>
         </section>
-        <section id="proposition">
+        <section id="proposal">
             <div class="container">
-                <div class="proposition-row">
-                    <div class="proposition-colonne">
-                        <h1>Prêt ?</h1>
+                <div class="flex justify-center-items align-center-items center-text">
+                    <div class="row">
+                        <h1 class="section-header">Prêt ?</h1>
                     </div>
                 </div>
-                <div class="proposition-row illustration-row">
-                    <div class="proposition-images arrow">
-                        <div class="images-container">
+                <div class="flex justify-center-items align-center-items center-text illustration-row">
+                    <div class="proposal-images arrow">
+                        <div class="images-item">
                             <img src="images/illustrations/call.png" alt="Appel d’introduction" />
                         </div>
 
                         <h4>Appel d’introduction</h4>
                     </div>
-                    <div class="proposition-images arrow">
-                        <div class="images-container">
+                    <div class="proposal-images arrow">
+                        <div class="images-item">
                             <img src="images/illustrations/users.png" alt="Proposition de profils" />
                         </div>
                         <h4>Proposition de profils</h4>
                     </div>
-                    <div class="proposition-images arrow">
-                        <div class="images-container">
+                    <div class="proposal-images arrow">
+                        <div class="images-item">
                             <img src="images/illustrations/call.png" alt="Interviews vidéo" />
                         </div>
                         <h4>Interviews vidéo</h4>
                     </div>
-                    <div class="proposition-images">
-                        <div class="images-container">
+                    <div class="proposal-images">
+                        <div class="images-item">
                             <img src="images/illustrations/user_group.png" alt="Onboarding" />
                         </div>
                         <h4>Onboarding</h4>
                     </div>
                 </div>
 
-                <div class="proposition-row">
-                    <div class="col">
-                        <a href="" class="proposition-btn">PLANIFIER UN APPEL</a>
+                <div class="flex justify-center-items align-center-items center-text">
+                    <div>
+                        <a href="#" class="proposal-btn btn ">PLANIFIER UN APPEL</a>
                     </div>
                 </div>
             </div>
         </section>
         <section id="services2">
-            <div class="container">
-                <div class="services2-row">
-                    <div class="services2-column">
-                        <h1 class="services2-column-title">
-                            Nous créons de l'<span>emploi de qualité</span>en République Démocratique du Congo
+            <div class="container mt-50">
+                <div class="row">
+                    <div class="services2-box">
+                        <h1 class="services2-box-title section-header">
+                            Nous créons de l'<span>emploi de qualité</span> en République Démocratique du Congo
                         </h1>
 
                         <p>
                             NOus sommes fiers de vous proposer un service de qualité qui permets de créer des emplois pour les talents de la RDC tout en offrant une formation d'excecllence à de nouveaux jeunes développeurs cahque année.
                         </p>
-                        <img class="services2-images" src="images/students.png" alt="Apprenants KDA" />
+                        <img class="services2-images " src="images/students.png " alt="Apprenants KDA " />
                     </div>
 
-                    <div class="services2-column">
-                        <div class="services2-row">
-                            <div class="services2-container">
-                                <div class="service2-card anim">
-                                    <img src="images/illustrations/salary.png" alt="illustrations icone salary" />
-                                    <h3>Rémunération ultra compétitive</h3>
-                                    <p>Un salaire 5x supérieur au salaire moyen de la RDC.</p>
+                    <div class="services2-box">
+                        <div class="row">
+                            <div class="services2-container ">
+                                <div class="service2-card flex ">
+                                    <div>
+                                        <img src="images/illustrations/salary.png " alt="illustrations icone salary " />
+                                    </div>
+                                    <div>
+                                        <h3>Rémunération ultra compétitive</h3>
+                                        <p>Un salaire 5x supérieur au salaire moyen de la RDC.</p>
+                                    </div>
+
+
                                 </div>
                             </div>
-                            <div class="services2-container">
-                                <div class="service2-card anim">
-                                    <img src="images/illustrations/working.png" alt="illustrations icone working" />
+                            <div class="services2-container ">
+                                <div class="service2-card flex ">
+                                    <img src="images/illustrations/working.png " alt="illustrations icone working " />
                                     <h3>Infrastructure pro</h3>
                                     <p>
                                         Un environnementde travail de haute qualité avec connexion Internet haut débit et une cantine offerte.
                                     </p>
                                 </div>
                             </div>
-                            <div class="services2-container">
-                                <div class="service2-card anim">
-                                    <img src="images/illustrations/health.png" alt="illustartions icone health" />
+                            <div class="services2-container ">
+                                <div class="service2-card flex ">
+                                    <img src="images/illustrations/health.png " alt="illustartions icone health " />
                                     <h3>Couverture santé</h3>
                                     <p>
                                         Une Couverture santé pour le développeur et sa famille dans le meilleur hôpital de Kinshasa.
                                     </p>
                                 </div>
                             </div>
-                            <div class="services2-container">
-                                <div class="service2-card anim">
-                                    <img src="images/illustrations/training.png" alt="illustrations icon training" />
+                            <div class="services2-container ">
+                                <div class="service2-card flex ">
+                                    <img src="images/illustrations/training.png " alt="illustrations icon training " />
                                     <h3>Formation continue</h3>
                                     <p>
                                         Via la KDA et des mentors de renommée mondiale de Facebook, Microsoft, Adobe & Google.
@@ -1204,26 +1316,26 @@
         </section>
         <section id="media">
             <div class="container">
-                <div class="media-row">
-                    <div class="media-container">
-                        <h1>Kinshasa Digital dans les médias</h1>
+                <div class="row">
+                    <div class="col-100">
+                        <h1 class="section-header">Kinshasa Digital dans les médias</h1>
                     </div>
 
                     <div class="media-images">
                         <div class="media-images-content">
-                            <a href="#">
+                            <a href="# ">
                                 <img src="images/medias/jeuneafr.png " alt="Jeune Afrique " />
                             </a>
-                            <a href="#">
+                            <a href="# ">
                                 <img src="images/medias/detijd.png " alt="De Tijd " />
                             </a>
-                            <a href="#">
+                            <a href="# ">
                                 <img src="images/medias/frb.png " alt="Fondation Roi Baudouin " />
                             </a>
-                            <a href="#">
+                            <a href="# ">
                                 <img src="images/medias/gsma.png " alt="GSMA " />
                             </a>
-                            <a href="#">
+                            <a href="# ">
                                 <img src="images/medias/digitalafr.png " alt="Digital Africa " />
                             </a>
                         </div>
@@ -1231,33 +1343,32 @@
                 </div>
             </div>
         </section>
-        <section id="testmonies">
-            <div class="container">
-                <div class="testmonies-row">
-                    <div class="testmonies-container">
-                        <h1>Ils nous soutiennent</h1>
+        <section id="testmonies ">
+            <div class="container ">
+                <div class="row">
+                    <div class="col-100 center-text">
+                        <h1 class="section-header">Ils nous soutiennent</h1>
                     </div>
 
-                    <div class="testmonies-container">
-                        <div class="testmonies-images-content">
-                            <img src="images/kda-avec-le-president-felix-antoine-tshisekedi.jpg" alt="kda avec le president felix antoine tshisekedi " />
+                    <div class="row justify-center-items">
+                        <div class="testmonies-images-content ">
+                            <img src="images/kda-avec-le-president-felix-antoine-tshisekedi.jpg " alt="kda avec le president felix antoine tshisekedi " />
                             <p>
                                 Présentation au
                                 <strong>Président Félix Antoine Tshisekedi</strong> et soutien de la Présidence.
                             </p>
                         </div>
-                        <div class="testmonies-images-content">
-                            <img src="images/kda-avec-le-premier-ministre-belge.jpg" alt="images kda avec le Ministre Belge " />
+                        <div class="testmonies-images-content ">
+                            <img src="images/kda-avec-le-premier-ministre-belge.jpg " alt="images kda avec le Ministre Belge " />
                             <p>
                                 Visite du Premier Ministre Belge
                                 <strong> Alexander De Croo</strong>.
                             </p>
                         </div>
-                        <div class="testmonies-images-content">
-                            <img src="images/kda-avec-l-ambassadeur-de-france.jpg" alt="images kda avec l'ambassadeur français de la RDC " />
+                        <div class="testmonies-images-content ">
+                            <img src="images/kda-avec-l-ambassadeur-de-france.jpg " alt="images kda avec l 'ambassadeur français de la RDC " />
                             <p>
-                                Soutien de l'Ambassadeur de France
-                                <strong>François Pujolas</strong>.
+                                Soutien de l'Ambassadeur de France <strong>François Pujolas</strong>.
                             </p>
                         </div>
                         <div class="testmonies-images-content">
@@ -1265,8 +1376,8 @@
                             <p>Visite de <strong>Aïda Ndiaye</strong> de Facebook.</p>
                         </div>
                     </div>
-                    <div class="testmonies-container">
-                        <div class="testmonies-images-content">
+                    <div class="row justify-center-items">
+                        <div class="testmonies-tweet-content">
                             <div>
                                 <blockquote class="twitter-tweet">
                                     <p lang="nl" dir="ltr">
@@ -1297,7 +1408,7 @@
                   ></script>
                 </div>
               </div>
-              <div class="testmonies-images-content">
+              <div class="testmonies-tweet-content">
                 <div>
                   <blockquote class="twitter-tweet">
                     <p lang="fr" dir="ltr">
@@ -1337,7 +1448,7 @@
                   ></script>
                 </div>
               </div>
-              <div class="testmonies-images-content">
+              <div class="testmonies-tweet-content">
                 <div>
                   <blockquote class="twitter-tweet">
                     <p lang="fr" dir="ltr">
@@ -1390,7 +1501,7 @@
                   ></script>
                 </div>
               </div>
-              <div class="testmonies-images-content">
+              <div class="testmonies-tweet-content">
                 <div>
                   <blockquote class="twitter-tweet">
                     <p lang="en" dir="ltr">
@@ -1424,8 +1535,8 @@
         </div>
       </section>
       <section id="contact-form">
-        <div class="contact-form-container">
-          <div class="contact-form-row">
+        <div class="container">
+          <div class="row justify-center-items">
             <div class="contact-header">
               <h2>Formulaire de contact</h2>
               <p>
@@ -1437,9 +1548,9 @@
                 >
               </p>
             </div>
-            <div class="contact-field">
+            <div class="container">
               <form class="formulaire">
-                <div class="contact-form-row">
+                <div class="row">
                   <div class="form-gauche">
                     <div class="form-line">
                       <label id="titre_label" for="titre">
@@ -1638,7 +1749,8 @@
           </div>
         </div>
       </section>
-    </div>
+    </main>
+    
     <footer>
       <div class="footer-container">
         <div class="footer-row">
