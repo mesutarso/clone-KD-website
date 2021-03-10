@@ -638,22 +638,20 @@ p {
 
 .arrow-left::before {
     content: "\2190";
-    font-family: 'slick';
     font-size: 20px;
     line-height: 1;
     opacity: .75;
     color: white;
 }
 
-.arrow-left:hover,
-.arrow-right:hover {
+.arrow-left:focus,
+.arrow-right:focus {
     border: none;
     background-color: transparent;
 }
 
 .arrow-right::before {
     content: "\2192";
-    font-family: 'slick';
     font-size: 20px;
     line-height: 1;
     opacity: .75;
@@ -665,7 +663,7 @@ p {
     align-items: center;
     width: 1000px;
     max-width: 1000px;
-    overflow-x: scroll;
+    overflow-x: hidden;
     scroll-snap-type: x mandatory;
 }
 
